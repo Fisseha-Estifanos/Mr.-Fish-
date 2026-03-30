@@ -1,0 +1,1351 @@
+================================================================================
+MR. FISH 🦈 — FULL WEBSITE COPY
+Data Science & Full-Stack Consulting | Personal Brand Website
+================================================================================
+
+SEO META DATA (Global)
+================================================================================
+
+Homepage Meta Title:
+Mr. Fish | Data Science & Full-Stack Consulting | Apex Tech Solutions
+
+Homepage Meta Description (155 chars):
+Mr. Fish is a global data science and full-stack software consultant. Turning complex data and technical debt into scalable systems and measurable business ROI.
+
+Primary Target Keywords:
+- data science consultant
+- full-stack software consultant
+- fractional CTO services
+- analytics consulting
+- data engineering consultant
+- predictive analytics consultant
+- technical audit services
+- MVP development consultant
+- data architecture consultant
+- machine learning consultant for startups
+
+Secondary / Long-Tail Keywords:
+- data science consultant for startups
+- fractional CTO for non-technical founders
+- full-stack data engineer consultant
+- hire a data science consultant internationally
+- technical architecture review services
+- custom machine learning model development
+- data pipeline engineering consultant
+- white-label tech consultant for agencies
+
+
+================================================================================
+SECTION 1 — HERO SECTION
+================================================================================
+
+[PAGE SLUG: / | TITLE TAG: Mr. Fish | Apex Data Science & Full-Stack Consulting]
+[META DESCRIPTION: Stop managing fragmented freelancers and guessing from messy data. Mr. Fish is your apex consulting partner — combining full-stack engineering and advanced data science to build intelligent, scalable systems that drive real growth.]
+
+---
+
+PRIMARY HEADLINE (H1):
+The Apex Tech Partner Your Business Has Been Missing.
+
+SUBHEADLINE (H2 / Descriptor):
+Full-Stack Engineering. Advanced Data Science. One Expert.
+Zero Hand-Offs. Zero Excuses.
+
+BODY COPY (Hero):
+Most companies are sitting on a goldmine of untapped data and stalled
+engineering potential. The problem isn't the technology — it's the gap
+between what your systems produce and what your business actually needs.
+
+Mr. Fish bridges that gap. I combine deep data science with end-to-end
+full-stack architecture to build intelligent, scalable solutions that turn
+your technical ambitions into measurable growth — from the database all the
+way to the user interface.
+
+Whether you're a startup founder with a vision and no technical roadmap, a
+CTO drowning in data silos, or an agency that just landed a complex client
+scope — this is where the right solution begins.
+
+PRIMARY CTA BUTTON:
+[ Book a Free 30-Minute Strategy Call ]
+
+SECONDARY CTA (text link):
+Explore What I Build →
+
+SOCIAL PROOF MICRO-COPY (below CTA):
+Trusted by founders, CTOs, and agencies across North America, Europe &
+Asia-Pacific.
+
+---
+
+HERO SEO NOTE:
+H1 contains brand authority + emotional hook. Subheadline includes implicit
+keywords: full-stack, data science, engineering. Opening paragraph targets
+"data science consultant," "full-stack consultant," and "scalable solutions."
+
+
+================================================================================
+SECTION 2 — CREDIBILITY BAR / TRUST STRIP
+================================================================================
+
+[Displayed immediately below the hero as a visual trust-builder]
+
+HEADLINE (small caps label):
+Areas of Deep Expertise
+
+LOGOS / TAGS:
+Python  |  Machine Learning  |  React & Next.js  |  PostgreSQL & NoSQL
+Node.js  |  Cloud Architecture (AWS / GCP)  |  Data Pipelines & ETL
+Predictive Analytics  |  API Engineering  |  BI Dashboards & Visualization
+
+STAT STRIP (Update with real metrics as you grow):
+[ X+ ] Projects Shipped
+[ X+ ] Global Clients Served
+[ X  ] Industries Transformed
+[ 100% ] Direct Senior Access — Always
+
+MICRO-COPY:
+No junior hand-offs. No account managers. You get me, every time.
+
+
+================================================================================
+SECTION 3 — VALUE PROPOSITION
+================================================================================
+
+[PAGE SLUG ANCHOR: #value | SEMANTIC TARGET: "why hire a data science consultant"]
+
+SECTION LABEL (eyebrow text):
+Why Mr. Fish
+
+HEADLINE (H2):
+One Expert Who Sees the Entire Chessboard.
+
+SUBHEADLINE:
+Most technical consultants are specialists. They go deep in one lane —
+and that's exactly where the cracks appear. You end up managing three
+freelancers who speak different languages, deliver siloed work, and point
+fingers when something breaks.
+
+I operate differently.
+
+BODY COPY:
+As a hybrid Data Science and Full-Stack Software Consultant, I architect
+the full technical picture — from the backend data infrastructure that
+powers your decisions to the front-end experience your customers actually
+see and use.
+
+That means fewer vendors, fewer communication failures, and a system that
+is built to work as a unified, intelligent whole from day one.
+
+I don't just execute tasks. I function as your strategic technical partner:
+asking the right questions, challenging the wrong assumptions, and building
+the kind of architecture that can scale with your ambitions — not against
+them.
+
+THREE-COLUMN VALUE BLOCKS:
+
+[BLOCK 1]
+Icon: architecture/layers icon
+Title: End-to-End Architecture
+Copy: From database design and API engineering to front-end interfaces and
+data pipelines — I build the complete system, not just one piece of it.
+
+[BLOCK 2]
+Icon: chart/analytics icon
+Title: Data Turned Into Decisions
+Copy: Raw data is worthless until it becomes insight. I design predictive
+models and analytics systems that give you the strategic clarity to act
+with confidence and speed.
+
+[BLOCK 3]
+Icon: shield/audit icon
+Title: Strategic Consulting Rigor
+Copy: Beyond writing code, I bring executive-level technical leadership.
+Auditing your existing architecture, eliminating costly bottlenecks, and
+building the roadmap your engineers can actually execute.
+
+SECONDARY CTA:
+[ See My Services ] or [ Book a Discovery Call ]
+
+
+================================================================================
+SECTION 4 — PROBLEM / SOLUTION
+================================================================================
+
+[PAGE SLUG ANCHOR: #problem | SEMANTIC TARGET: "technical debt consultant,"
+"data silo solutions," "startup technical advisor"]
+
+SECTION LABEL:
+The Problem
+
+HEADLINE (H2):
+Sound Familiar? Your Technology Should Be Your Biggest Asset — Not Your
+Biggest Headache.
+
+---
+
+PROBLEM BLOCK 1 (for Startup Founders):
+Heading (H3): You Have the Vision. But the Tech Is Holding You Back.
+Copy:
+You raised the funding. You have the market opportunity mapped out. But
+every week, you're making critical product decisions based on incomplete
+data — or worse, gut feelings. You don't know who to trust or how to
+evaluate the quality of what you're being built. You just know that things
+aren't moving fast enough.
+
+SOLUTION RESPONSE:
+I give non-technical founders a trustworthy, senior technical co-pilot.
+I translate your business goals into a precise technical roadmap, build
+the infrastructure to execute it, and ensure you never again have to wonder
+whether your codebase is solid or your data is telling you the truth.
+
+---
+
+PROBLEM BLOCK 2 (for CTOs / Innovation Leaders):
+Heading (H3): Your Team Is Talented. But They're Buried.
+Copy:
+Your engineers are exceptional — but they're consumed by maintenance, bug
+fixes, and everyday firefighting. Bringing in machine learning models,
+rebuilding data architecture, or engineering a new analytics layer? That
+requires specialized, focused capacity you simply don't have available
+without pulling people off critical work.
+
+SOLUTION RESPONSE:
+I come in as senior, specialized firepower — without the 6-month hiring
+process or the executive salary. I audit your systems, architect the
+solution, execute the build, and if needed, train your team to own it
+afterward.
+
+---
+
+PROBLEM BLOCK 3 (for Digital Agencies):
+Heading (H3): You Won the Client. Now the Scope Is Beyond Your Team.
+Copy:
+You pitched a web project. Now the client wants a custom data dashboard,
+a machine learning recommendation engine, and a scalable backend that
+their current tech can't support. Your team is exceptional at what they do
+— but this is a different league. You don't want to lose the client or
+your reputation.
+
+SOLUTION RESPONSE:
+I am the silent weapon in your agency's arsenal. A white-label, senior
+consultant who plugs seamlessly into your workflow, handles the complex
+technical scope professionally, and makes your agency look like it can
+build anything — because, with me in your corner, it can.
+
+---
+
+TRANSITION CTA:
+[ Book a Free Strategy Call ] — Let's diagnose your exact situation.
+
+
+================================================================================
+SECTION 5 — SERVICES / FEATURES & BENEFITS
+================================================================================
+
+[PAGE SLUG: /services | TITLE TAG: Services | Mr. Fish — Data Science &
+Full-Stack Consulting]
+[META DESCRIPTION: Explore Mr. Fish's consulting services: full-stack
+architecture, predictive analytics, technical audits, and rapid MVP
+development. Built for startups, enterprises, and scaling agencies.]
+[SEMANTIC TARGETS: "data science consulting services," "MVP development
+services," "fractional CTO services," "technical audit services"]
+
+SECTION LABEL:
+What I Build
+
+HEADLINE (H2):
+High-Impact Consulting Services Engineered for Scale.
+
+SUBHEADLINE:
+Every engagement is tailored. Every solution is built to last. Here is what
+I bring to the table.
+
+---
+
+SERVICE CARD 1:
+Title (H3): Full-Stack System Architecture
+Tagline: Build Once. Scale Indefinitely.
+Body:
+Your product should be an asset, not a liability. I design and build
+complete, integrated technology systems — front-end interfaces, RESTful APIs,
+database schemas, cloud infrastructure, and the data pipelines connecting
+them all. You get a unified architecture without the overhead of managing
+multiple specialized hires.
+
+Benefits at a Glance:
+✓ Faster time to market with fewer integration failures
+✓ One point of accountability for the entire technical stack
+✓ Systems built to scale from 100 users to 100,000+
+✓ Reduced long-term technical debt from day one
+
+Ideal For: Funded startups | SaaS products | Digital agencies
+
+CTA: [ Discuss Your Architecture ]
+
+---
+
+SERVICE CARD 2:
+Title (H3): Predictive Analytics & Custom Data Modeling
+Tagline: Turn Your Data Into Your Most Powerful Business Tool.
+Body:
+You're already generating data — the question is whether it's working for
+you. I design custom machine learning models, predictive algorithms, and
+interactive analytics dashboards that transform your raw data into
+strategic insight. Stop guessing what your customers will do next. Start
+knowing.
+
+Benefits at a Glance:
+✓ Unlock hidden revenue streams buried in your existing data
+✓ Replace gut-feel decisions with data-backed confidence
+✓ Custom models built around your specific business logic
+✓ Interactive dashboards your non-technical team can actually use
+
+Ideal For: Growth-stage startups | Enterprise analytics teams | E-commerce
+
+CTA: [ Explore Analytics Solutions ]
+
+---
+
+SERVICE CARD 3:
+Title (H3): Technical Audits & Architecture Roadmaps
+Tagline: Know Exactly Where You Stand — Before It Costs You.
+Body:
+Before you scale, you need to know what you're scaling on. I conduct
+deep-dive reviews of your existing codebase, data infrastructure, and
+system architecture — identifying bottlenecks, security vulnerabilities,
+and costly technical debt before they become catastrophic. You'll receive
+a clear, prioritized roadmap your team can execute immediately.
+
+Benefits at a Glance:
+✓ Identify expensive technical debt before it derails your growth
+✓ Get a clear, prioritized action plan — not just a list of problems
+✓ Impartial, senior-level review with no internal politics
+✓ Discovery fee credited toward full project execution
+
+Ideal For: Pre-funding startups | Enterprises inheriting legacy systems |
+Acquisitions & due diligence
+
+CTA: [ Request a Technical Audit ]
+
+---
+
+SERVICE CARD 4:
+Title (H3): Rapid MVP Development
+Tagline: Test Your Idea in the Real World — Before You Burn Your Runway.
+Body:
+Speed is your competitive advantage. I build intelligent, data-driven
+minimum viable products and prototypes that are designed not just to
+function — but to validate. Get a working product in front of real users,
+secure early investor traction, and make confident go/no-go decisions
+without burning months of funding on the wrong direction.
+
+Benefits at a Glance:
+✓ Go from concept to deployed product in weeks, not months
+✓ Built with production-grade architecture — no expensive rewrites later
+✓ Data instrumentation baked in from day one to capture user behavior
+✓ Designed to iterate rapidly based on real user feedback
+
+Ideal For: Pre-seed to Series A founders | Agency overflow projects
+
+CTA: [ Start Building Your MVP ]
+
+---
+
+SERVICE CARD 5 (Flagship / Anchor Offer):
+Title (H3): Fractional CTO & Ongoing Technical Advisory
+Tagline: Executive-Level Technical Leadership. Without the Executive Price Tag.
+Body:
+Access a world-class Chief Technology Officer for a fraction of the cost of
+a full-time hire. As your Fractional CTO, I embed into your business to own
+your technical vision, lead your engineering decisions, mentor your team, and
+ensure your infrastructure scales with your growth. No 6-month hiring process.
+No $250,000 annual salary. Just direct, senior expertise exactly when and
+where you need it.
+
+Benefits at a Glance:
+✓ Strategic technical direction aligned with your business goals
+✓ Predictable monthly retainer — scale up or down as needed
+✓ Credibility booster for investor decks and enterprise sales
+✓ Full-stack + data science oversight under one roof
+
+Ideal For: Seed-stage companies | Scaling tech teams | Founders without a CTO
+
+CTA: [ Explore Fractional CTO Partnership ]
+
+---
+
+SECTION CTA (bottom):
+Not sure which engagement model is right for you?
+[ Book a Free 30-Minute Discovery Call ] — We'll figure it out together.
+
+
+================================================================================
+SECTION 6 — SOCIAL PROOF / TESTIMONIALS
+================================================================================
+
+[ANCHOR: #testimonials | SEMANTIC TARGET: "data science consultant reviews,"
+"full-stack consultant testimonials"]
+
+SECTION LABEL:
+Results That Speak
+
+HEADLINE (H2):
+What Happens When Ambition Meets Apex Expertise.
+
+INTRO COPY:
+From early-stage founders to enterprise innovation leaders, here is what
+clients experience when they stop managing fragmented teams and start
+working with a single, high-caliber technical partner.
+
+---
+
+[NOTE TO MR. FISH: The testimonial placeholders below are structured for
+maximum conversion impact. Replace with real client quotes as soon as
+available. The structure — specific result + name + title + company — is
+critical for credibility. Even 1–2 real quotes outperform 10 fabricated ones.]
+
+TESTIMONIAL CARD 1 (Startup Founder):
+Quote:
+"[Mr. Fish] took our half-built prototype and transformed it into a fully
+functioning, data-driven platform in [X weeks]. What would have taken our
+previous agency months — and three times the budget — was done with surgical
+precision. For the first time, I actually understood our own technical stack."
+— [Name], [Title], [Company / Industry]
+Tags: MVP Development | Full-Stack Architecture
+
+TESTIMONIAL CARD 2 (CTO / Corporate):
+Quote:
+"We had years of siloed, legacy data that our team had no capacity to
+restructure. [Mr. Fish] came in, audited everything, built a custom analytics
+pipeline, and delivered a dashboard that our executive team now uses weekly
+for strategic decisions. The ROI was visible within the first quarter."
+— [Name], [Title], [Company / Industry]
+Tags: Data Architecture | Predictive Analytics | Technical Audit
+
+TESTIMONIAL CARD 3 (Agency Owner):
+Quote:
+"We nearly lost a major client when the scope expanded into advanced
+backend architecture and data visualization. [Mr. Fish] handled everything
+flawlessly as our behind-the-scenes partner. Our client was thrilled and
+we retained the contract. We now have him on speed dial."
+— [Name], [Title], [Agency Name]
+Tags: White-Label Consulting | Full-Stack | Agency Partnership
+
+---
+
+CREDIBILITY SECTION — "As Featured In / Worked With" (placeholder):
+[Add logos of recognizable brands, publications, or academic institutions
+as you accumulate them. Even a single well-known logo increases conversion
+rates significantly.]
+
+METRICS BAR (update with real data):
+[ X Projects Completed ] | [ $X Revenue Unlocked for Clients ] |
+[ X Countries Served ] | [ X% Client Retention Rate ]
+
+
+================================================================================
+SECTION 7 — ABOUT / STORY
+================================================================================
+
+[PAGE SLUG: /about | TITLE TAG: About Mr. Fish | Data Science &
+Full-Stack Software Consultant]
+[META DESCRIPTION: Meet Mr. Fish — a global data science and full-stack
+software consultant combining advanced analytics, full-stack engineering, and
+strategic advisory to build intelligent, scalable systems for ambitious
+companies.]
+[SEMANTIC TARGET: "about data science consultant," "who is mr fish consultant"]
+
+SECTION LABEL:
+The Consultant Behind the Brand
+
+HEADLINE (H2):
+Why "Mr. Fish"? Because in a Sea of Average, You Need an Apex Partner.
+
+OPENING HOOK:
+Most consultants will tell you they're "passionate about technology."
+That's not a differentiator. That's a default.
+
+What actually matters is this: Can they see the full picture? Can they
+build it, measure it, scale it, and tell you with precision — in business
+language, not jargon — what it means for your bottom line?
+
+STORY BODY:
+I built Mr. Fish on a single, frustrating observation: too many talented
+companies were failing not because of bad ideas, but because of fragmented
+technical execution. The startup founder who hired three freelancers that
+couldn't communicate. The CTO whose team was buried in maintenance while
+the company's data strategy sat idle. The agency that lost a major contract
+because the project scope jumped into territory their team had never seen.
+
+In every one of these situations, the missing piece was the same: a single,
+senior, hybrid expert who could see and execute across the entire technical
+spectrum — from data infrastructure to user experience — and translate all
+of it into clear business value.
+
+That's the role I built myself to fill.
+
+With a foundation in Data Science, Machine Learning, and Full-Stack
+Engineering, I've developed a rare ability to move fluidly between the
+analytical and the architectural — between building the models that generate
+insight and the systems that actually deliver it. I've worked across
+industries, time zones, and tech stacks. I've shipped MVPs that secured
+funding, built analytics platforms that unlocked revenue, and untangled
+codebases that were threatening to derail growth-stage companies.
+
+The name "Mr. Fish" isn't accidental. In the ocean of consulting options —
+bloated agencies, siloed freelancers, and theoretical academics — I move
+with precision, speed, and purpose. I don't circle problems. I solve them.
+
+MISSION STATEMENT:
+My mission is straightforward: to be the apex technical partner that ambitious
+companies deserve but rarely find. One expert. End-to-end expertise. Measurable
+results. No hand-offs. No excuses.
+
+CORE VALUES (visual blocks):
+
+[Value 1]
+Title: Radical Transparency
+Copy: You will always know where your project stands, why decisions were made,
+and exactly what the numbers mean for your business.
+
+[Value 2]
+Title: Precision Over Volume
+Copy: I take on a limited number of projects at a time to ensure every client
+receives focused, senior-level attention — not a diluted slice of a busy agency.
+
+[Value 3]
+Title: Business First, Technology Second
+Copy: The best solution isn't always the most technically elegant one. Every
+recommendation I make starts with your business objective, not a preference
+for a particular tech stack.
+
+[Value 4]
+Title: Ownership & Accountability
+Copy: When something is in my hands, it's in the right hands. I take full
+ownership of outcomes — not just deliverables.
+
+CTA:
+Want to know if we're the right fit?
+[ Book a Free Discovery Call ] — 30 minutes. No pitch. Just clarity.
+
+
+================================================================================
+SECTION 8 — PRICING
+================================================================================
+
+[PAGE SLUG: /work-with-me | TITLE TAG: Work With Mr. Fish | Consulting
+Engagements & Pricing]
+[META DESCRIPTION: Explore consulting engagement models with Mr. Fish —
+from technical audits and MVP development to monthly retainer and fractional
+CTO partnerships. Built for serious, scaling companies.]
+[SEMANTIC TARGET: "data science consultant pricing," "fractional CTO cost,"
+"technical audit pricing," "hire full-stack consultant"]
+
+SECTION LABEL:
+Engagement Models
+
+HEADLINE (H2):
+Serious Expertise, Structured for Your Stage.
+
+INTRO COPY:
+I don't believe in one-size-fits-all pricing. The right engagement model
+depends on where you are, what you need, and how fast you need to move.
+Below are the four primary ways we can work together — each designed to
+deliver maximum value at the right level of commitment.
+
+[NOTE: All engagements begin with a Discovery Call to ensure the right fit.]
+
+---
+
+PRICING TIER 1:
+Title: Paid Discovery & Technical Roadmap
+Tagline: The Smartest First Step Before Any Major Build.
+Description:
+Before committing to a complex project, get absolute clarity on what needs
+to be built, how it should be architected, and what it will realistically
+take to get there. I conduct a comprehensive technical audit or architecture
+review of your current system (or idea), and deliver a prioritized,
+actionable roadmap your team can execute with or without me.
+
+What's Included:
+✓ Deep-dive technical assessment (codebase, data infra, or concept review)
+✓ Documented architecture roadmap with prioritized recommendations
+✓ Risk and bottleneck identification
+✓ 1-hour debrief session with Q&A
+✓ Discovery fee is credited toward full project execution if you proceed
+
+Best For: Non-technical founders | Startups pre-build | Enterprise
+pre-investment audits
+
+CTA: [ Request a Technical Audit ]
+
+---
+
+PRICING TIER 2:
+Title: Value-Based Project Engagement
+Tagline: A Defined Outcome. A Flat, Agreed-Upon Investment.
+Description:
+For complete, scoped builds — an MVP, an analytics platform, a custom
+machine learning model, or a full-stack application. We agree on the
+outcome and the investment upfront. You know exactly what you're getting
+and exactly what it costs. No billing surprises. No scope creep excuses.
+
+What's Included:
+✓ Full end-to-end project delivery to agreed specifications
+✓ Architecture, development, data modeling, and deployment
+✓ Regular progress updates and transparent milestone tracking
+✓ Post-launch support window included
+
+Best For: Funded startups | Digital agencies | Product companies
+
+CTA: [ Get a Custom Project Estimate ]
+
+---
+
+PRICING TIER 3:
+Title: Monthly Retainer — Fractional CTO & Advisory
+Tagline: Executive-Level Technical Leadership on Your Terms.
+Description:
+For companies that need ongoing strategic technical oversight without the
+commitment of a full-time executive hire. As your embedded Fractional CTO
+or Senior Advisor, I provide monthly capacity for architectural decisions,
+team mentoring, roadmap planning, and hands-on development — at a
+predictable monthly investment.
+
+What's Included:
+✓ Set monthly hours of strategic advisory and/or hands-on execution
+✓ Architecture reviews and technical decision-making support
+✓ Engineering team oversight and mentoring
+✓ Data strategy alignment with business goals
+✓ Priority response times and async availability
+
+Best For: Scale-up companies | Startups without a CTO | Enterprise teams
+
+CTA: [ Explore Retainer Partnerships ]
+
+---
+
+PRICING TIER 4:
+Title: Cash + Equity Hybrid (Startup Special)
+Tagline: When You're Building Something Worth Betting On.
+Description:
+For early-stage founders with a compelling vision but limited immediate cash
+flow, I selectively offer a blended engagement model: a reduced cash rate
+that covers baseline delivery costs, plus a small equity or revenue-share
+position. I'm not just building your product — I'm investing in your success.
+
+What's Included:
+✓ Everything in a standard project engagement
+✓ Reduced upfront cash rate
+✓ Equity or revenue share negotiated per project
+✓ Long-term strategic alignment — I want you to win
+
+Best For: Pre-seed / Seed-stage founders | High-conviction early-stage startups
+
+Note: This model is offered on a highly selective basis. Apply via the
+Discovery Call.
+
+CTA: [ Apply for the Startup Partnership Program ]
+
+---
+
+PRICING DISCLAIMER COPY:
+Every engagement is scoped individually to ensure the right solution for
+your specific needs, stage, and goals. Pricing reflects the value and ROI
+of the outcome — not an hourly commodity rate.
+
+If you're serious about building something that lasts, let's start with a
+conversation.
+
+BOTTOM CTA:
+[ Book Your Free 30-Minute Discovery Call ]
+No pressure. No pitch. Just a focused conversation about your specific
+situation and whether we're the right fit.
+
+
+================================================================================
+SECTION 9 — WHY NOT THE ALTERNATIVES (Differentiation / "Why Me")
+================================================================================
+
+[ANCHOR: #why-mr-fish | SEMANTIC TARGET: "best alternative to tech agency,"
+"vs hiring freelancer data science," "independent consultant vs agency"]
+
+SECTION LABEL:
+Why Not Just...
+
+HEADLINE (H2):
+You've Had the Other Options. Here's Why They Didn't Work.
+
+INTRO COPY:
+The market is full of options. But most of them were designed for a different
+problem than the one you actually have.
+
+---
+
+COMPARISON BLOCK 1:
+Title (H3): Why Not a Large Agency?
+Copy:
+Agencies pitch you with their senior partners. They build your project with
+their juniors. By the time you notice the quality gap, you're 60 days in
+and three invoices deep. With Mr. Fish, there is no bait-and-switch. You
+get direct, senior-level expertise on every interaction — every call, every
+commit, every decision.
+
+Tag: The difference: Direct access. Always.
+
+---
+
+COMPARISON BLOCK 2:
+Title (H3): Why Not Hire Three Separate Freelancers?
+Copy:
+A pure data scientist can't integrate their model into your app. A front-end
+developer can't architect your database. When the work breaks at the seams
+between them, who owns the problem? With Mr. Fish, the answer is always the
+same person: me. End-to-end responsibility means no blame game, no
+integration failures, and no project falling through the cracks between
+specialists.
+
+Tag: The difference: One owner. The entire stack.
+
+---
+
+COMPARISON BLOCK 3:
+Title (H3): Why Not a No-Code Tool or SaaS Platform?
+Copy:
+No-code tools are brilliant — for prototypes. The moment you need real
+customization, true data ownership, or the ability to scale beyond the
+platform's ceiling, you hit a wall. I build proprietary, custom architecture
+that you own outright. Not a technology rental that locks you in and charges
+you more every time you grow.
+
+Tag: The difference: You own the asset. Not a subscription.
+
+---
+
+COMPARISON BLOCK 4:
+Title (H3): Why Not Hire a Full-Time CTO or Lead Engineer?
+Copy:
+Finding a world-class, senior Data Scientist and Full-Stack Architect takes
+months of recruiting. Hiring them takes $150,000–$250,000+ in salary, equity,
+benefits, and the risk that they don't work out. With Mr. Fish, you access
+that same caliber of expertise on-demand, at a fraction of the cost, with
+zero hiring risk, and the ability to scale engagement up or down as your
+needs evolve.
+
+Tag: The difference: Senior expertise. Fractional cost.
+
+---
+
+TRANSITION CTA:
+Ready to work with the apex option?
+[ Book Your Free Discovery Call ]
+
+
+================================================================================
+SECTION 10 — FAQ
+================================================================================
+
+[PAGE SLUG ANCHOR: #faq | SCHEMA: FAQ schema markup for SEO]
+[SEMANTIC TARGET: "data science consultant FAQ," "how to hire a fractional CTO,"
+"what does a full-stack consultant do"]
+
+SECTION LABEL:
+Frequently Asked Questions
+
+HEADLINE (H2):
+Your Questions, Answered Directly.
+
+---
+
+FAQ 1:
+Q: I'm not very technical. Will I be able to understand what you're building
+and why?
+A: Absolutely — and frankly, this is one of the most important things I
+prioritize. Complex technology should never feel like a black box, especially
+when it's yours. I specialize in translating technical decisions into clear
+business language. Every recommendation I make will be explained in terms of
+what it means for your outcomes, your timelines, and your budget. If you
+can't explain it to a board member, I haven't done my job.
+
+---
+
+FAQ 2:
+Q: How is working with you different from hiring a development agency?
+A: The most important difference is who actually does the work. When you
+hire an agency, you negotiate with senior partners and get handed to junior
+developers. With Mr. Fish, you work directly with me — a senior consultant
+— on every phase of the project. There are no account managers, no
+hand-offs, and no quality gaps. You get consistent, senior-level output
+from the first kickoff call to the final deployment.
+
+---
+
+FAQ 3:
+Q: What industries do you have experience in?
+A: I've worked across a wide range of sectors including fintech, e-commerce,
+SaaS, healthcare technology, digital media, and professional services. The
+common thread isn't the industry — it's the challenge: messy data, scaling
+bottlenecks, fragmented systems, or a product that needs to be built
+intelligently from the ground up. If that sounds like you, we should talk.
+
+---
+
+FAQ 4:
+Q: What happens in the Discovery Call? Is there any obligation?
+A: None. The 30-minute Discovery Call is a focused, honest conversation about
+your situation. I'll ask about what you're building, what problems you're
+facing, and what you've already tried. You'll get a clear sense of whether
+I'm the right fit, and I'll give you my honest assessment of the best path
+forward — whether that involves working with me or not. No pitch. No
+pressure.
+
+---
+
+FAQ 5:
+Q: Can you work with my existing in-house engineering team?
+A: Yes, and often this is the ideal setup. I can function as a senior advisor
+and technical lead who complements your existing team — elevating the work
+they're already doing, unblocking complex challenges, and providing the
+specialized Data Science or architecture depth that your team might not have
+internally. I integrate cleanly into existing workflows, code repositories,
+and communication tools.
+
+---
+
+FAQ 6:
+Q: How do you handle confidentiality and IP ownership?
+A: Everything we build together is yours. Full intellectual property
+assignment is standard in every engagement. I'm also happy to execute NDAs
+before any sensitive discussion begins — many clients request this before
+our very first call, and I treat it as a perfectly reasonable baseline for
+working at a senior level.
+
+---
+
+FAQ 7:
+Q: I'm an agency. Can you work white-label without my client knowing?
+A: Yes, absolutely. I work as a white-label partner for a number of agencies
+and have a strong track record of representing agency brands with
+professionalism and discretion. Your client relationship remains yours. I
+operate behind the scenes, delivering to your standards, on your timeline,
+under your brand.
+
+---
+
+FAQ 8:
+Q: Do you work with clients outside of [your country]?
+A: Yes — I work fully remotely with clients across North America, Europe,
+Asia-Pacific, the Middle East, and beyond. Global time zones are navigated
+through structured async communication and scheduled deep-work sessions.
+Many of my most successful engagements have been entirely remote with
+clients I've never met in person.
+
+---
+
+FAQ 9:
+Q: What's your typical project timeline?
+A: It depends on the scope and complexity. A Technical Audit and Roadmap
+can be delivered in 1–2 weeks. An MVP can range from 4 to 10 weeks depending
+on scope. A full analytics platform or complex system build typically spans
+2–4 months. Every engagement begins with a scoping phase that defines clear
+milestones and delivery windows before any work begins.
+
+---
+
+FAQ 10:
+Q: How do I get started?
+A: The best first step is a free 30-minute Discovery Call. From there, if
+there's a clear fit, I'll propose the right engagement model and we'll get
+a scoping document drafted within 48 hours. Most clients go from initial
+call to signed agreement within a week.
+
+[ Book Your Free Discovery Call ]
+
+
+================================================================================
+SECTION 11 — CONTACT / FINAL CTA SECTION
+================================================================================
+
+[PAGE SLUG: /contact | TITLE TAG: Contact Mr. Fish | Book a Discovery Call]
+[META DESCRIPTION: Ready to work with an apex data science and full-stack
+consultant? Book a free 30-minute discovery call with Mr. Fish and start
+building your intelligent, scalable solution today.]
+[SEMANTIC TARGET: "hire data science consultant," "book fractional CTO call,"
+"contact full-stack consultant"]
+
+SECTION LABEL:
+Let's Build Something Exceptional.
+
+HEADLINE (H2):
+The Gap Between Where You Are and Where You Want to Be Is Usually Technical.
+Let's Close It.
+
+SUBHEADLINE:
+Whether you're sitting on untapped data, stalled in a build, or looking for
+a senior partner to take your technology to the next level — this is where
+that conversation starts.
+
+BODY COPY:
+Book a free 30-minute Discovery Call. I'll listen to what you're building,
+ask the right questions, and give you my honest, direct assessment of the
+best path forward. If we're a great fit, we'll move fast. If I'm not the
+right solution, I'll tell you that too.
+
+No pressure. No pitch deck. Just clarity.
+
+PRIMARY CTA:
+[ Book Your Free 30-Minute Discovery Call ]
+(Link to Calendly / scheduling tool)
+
+SECONDARY CTA OPTIONS:
+[ Request a Custom Project Estimate ]
+[ Ask About Fractional CTO Partnerships ]
+[ Send a Direct Message ]
+
+CONTACT DETAILS:
+Email: [your@email.com]
+LinkedIn: [linkedin.com/in/yourprofile]
+Location: Available Globally | Remote-First
+Response Time: Within 24 hours on business days
+
+INTAKE FORM FIELDS (minimal friction):
+- Your Name
+- Company / Organization
+- Email Address
+- What best describes you? [Dropdown: Startup Founder | CTO/Tech Leader |
+  Agency Owner | Other]
+- What's your biggest technical challenge right now? [Short text]
+- [ Submit → Let's Talk ]
+
+
+================================================================================
+GLOBAL UI ELEMENT — WHATSAPP FLOATING ACTION BUTTON (All Pages)
+================================================================================
+
+[PLACEMENT: Fixed, bottom-right corner of every page. Always visible on scroll.
+z-index above all other content. Present on mobile and desktop.]
+
+VISUAL DESIGN SPEC:
+- Shape: Circle (56px desktop / 52px mobile)
+- Color: WhatsApp green (#25D366) with subtle drop shadow + pulse animation
+- Icon: WhatsApp logo (white) — standard SVG icon
+- Hover state: Slight scale-up (1.08x) + tooltip appears
+- Mobile: slightly smaller, same position
+
+TOOLTIP TEXT (appears on hover / after 3s on mobile):
+"Chat with Mr. Fish on WhatsApp →"
+
+TOOLTIP SUBTEXT (optional, dismiss-able):
+"Typically replies within a few hours."
+
+ON CLICK BEHAVIOR:
+Opens: https://wa.me/[YOUR_WHATSAPP_NUMBER]?text=Hi%20Mr.%20Fish%2C%20I%27d%20like%20to%20discuss%20a%20project.
+
+[NOTE: Replace [YOUR_WHATSAPP_NUMBER] with your full international number,
+e.g. 447911123456 for a UK number. No +, spaces, or dashes.]
+
+PRE-FILLED MESSAGE (URL encoded):
+"Hi Mr. Fish, I'd like to discuss a project."
+
+ANIMATION SPEC (for developer):
+- On page load: button slides in from bottom-right after 2.5s delay
+- Subtle green pulse ring animation (CSS keyframes) repeats every 4s
+- On scroll down >300px: button appears if not yet visible
+
+COPY FOR TOOLTIP / ARIA LABEL:
+aria-label="Chat with Mr. Fish on WhatsApp"
+title="Message me directly on WhatsApp"
+
+DESIGN NOTE — Why This Matters:
+The WhatsApp button is one of the highest-converting CTAs for international
+consulting clients, especially in Europe, the Middle East, and Asia-Pacific
+where WhatsApp is the default professional communication tool. It removes
+friction for high-intent visitors who are ready to talk but don't want to
+fill out a form.
+
+================================================================================
+SECTION 12 — FOOTER
+================================================================================
+
+FOOTER COPY:
+
+BRAND TAGLINE (Footer):
+Mr. Fish 🦈 — Apex Data Science & Full-Stack Consulting.
+Building intelligent, scalable systems for ambitious companies worldwide.
+
+NAVIGATION LINKS (Desktop — top navbar):
+Services | History | About | Work With Me | FAQ | Contact | Blog (coming soon)
+
+NAVIGATION SOCIAL ICONS (top navbar, right side — always visible):
+[LinkedIn icon] [GitHub icon] [Twitter/X icon] [Instagram icon] [YouTube icon]
+[WhatsApp CTA button — "Chat on WhatsApp" — styled as a pill button in nav]
+
+LEGAL LINKS:
+Privacy Policy | Terms of Service | Cookie Policy
+
+SOCIAL LINKS BLOCK (footer — full icons with labels):
+
+Connect & Follow:
+┌─────────────────────────────────────────────────────────────────┐
+│  [LinkedIn]     linkedin.com/in/[yourprofile]                   │
+│  Work history, thought leadership, client case studies          │
+│                                                                 │
+│  [GitHub]       github.com/[yourusername]                       │
+│  Open source work, code samples, public repositories           │
+│                                                                 │
+│  [Twitter / X]  x.com/[yourhandle]                             │
+│  Data science takes, industry insights, quick threads          │
+│                                                                 │
+│  [Instagram]    instagram.com/[yourhandle]                      │
+│  Behind the scenes, work culture, personal brand moments        │
+│                                                                 │
+│  [YouTube]      youtube.com/@[yourchannel]                      │
+│  Tutorials, walkthroughs, thought leadership content            │
+│                                                                 │
+│  [WhatsApp]     Direct message — fastest response guaranteed    │
+└─────────────────────────────────────────────────────────────────┘
+
+DESIGN NOTE — Social Link Visibility Rules:
+- Navbar:     Icons only (24px), right-aligned, all pages
+- Hero:       Icon row below secondary CTA on homepage
+- About page: Full icon + label row below bio
+- History:    LinkedIn badge + GitHub prominently featured
+- Contact:    Full icons with labels + WhatsApp as standalone CTA block
+- Footer:     Full icons with labels, grouped under "Connect & Follow"
+
+COPYRIGHT:
+© 2025 Mr. Fish. All rights reserved.
+
+FOOTER SEO COPY (small text, high keyword density):
+Mr. Fish is a global Data Science and Full-Stack Software Consultant
+specializing in predictive analytics, machine learning, end-to-end system
+architecture, and fractional CTO services. Serving startups, enterprise
+innovation teams, and digital agencies across North America, Europe,
+Asia-Pacific, and the Middle East.
+
+Keywords naturally embedded: data science consultant, full-stack consultant,
+fractional CTO, analytics consulting, machine learning consultant, technical
+audit, MVP development, scalable architecture.
+
+
+================================================================================
+BONUS: BLOG / CONTENT SEO STRATEGY — PILLAR PAGE TOPICS
+================================================================================
+
+[High-value article topics to establish SEO authority over time]
+
+Cluster 1: Data Science for Business
+- "How Non-Technical Founders Can Evaluate Data Science Consultants"
+- "5 Signs Your Company Is Leaving Revenue on the Table With Unused Data"
+- "Predictive Analytics vs. Business Intelligence: What Startups Actually Need"
+- "How to Build a Data Strategy Before You Hire Your First Data Scientist"
+
+Cluster 2: Full-Stack Architecture
+- "Why Your Startup Needs a Full-Stack Architect, Not Just a Front-End Dev"
+- "The Technical Debt Trap: How to Spot It Before It Kills Your Growth"
+- "Building an MVP That Doesn't Need a Full Rewrite in 12 Months"
+
+Cluster 3: Fractional CTO / Consulting
+- "What Does a Fractional CTO Actually Do? An Honest Breakdown"
+- "Agency Owner's Guide: How to Handle Complex Technical Scope You Can't Build"
+- "Fractional CTO vs. Full-Time CTO: What's Right for Your Stage?"
+
+Cluster 4: Industry Expertise
+- "How Machine Learning Is Transforming [Specific Industry]"
+- "Data Pipeline Architecture for Scaling Startups: A Practical Guide"
+
+
+================================================================================
+SECTION 13 — PROFESSIONAL HISTORY & BIO PAGE
+================================================================================
+
+[PAGE SLUG: /history | TITLE TAG: Professional History | Mr. Fish — Data
+Science & Full-Stack Consultant]
+[META DESCRIPTION: Explore Mr. Fish's full professional history — spanning
+data science, full-stack engineering, analytics consulting, and software
+development across [X] years and [X] industries globally.]
+[SEMANTIC TARGETS: "data science consultant background," "full-stack engineer
+career history," "Mr. Fish professional bio," "analytics consultant experience"]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SUB-SECTION A — PAGE HERO (History Page)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION LABEL:
+The Track Record
+
+HEADLINE (H1):
+Built in the Deep End. Proven Across the Board.
+
+SUBHEADLINE:
+Every engagement, every system, every result — rooted in years of real-world
+experience across data science, full-stack engineering, and strategic
+consulting. Not theory. Not slide decks. Track record.
+
+[DESIGN NOTE: This page should feel like a premium, editorial LinkedIn —
+clean timeline layout, bold typography, subtle animations on scroll. Think
+linear.app meets a high-end consulting firm's team page.]
+
+SOCIAL PROOF STRIP (directly below hero on History page):
+[LinkedIn Profile Badge / embedded widget] — verify the full history there
+[GitHub contribution graph / public repos count]
+[X+ Years Experience] | [X+ Projects] | [X Industries]
+
+---
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SUB-SECTION B — PROFESSIONAL BIO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[COPYWRITER NOTE: The bio below is a structural template with placeholder
+brackets. In the NEXT STEP, paste your raw professional history sources
+(LinkedIn export, CV, project descriptions, bios from other platforms)
+and the full bio will be composed from that material, matching this structure
+and the Mr. Fish brand voice: confident, sharp, results-oriented, no fluff.]
+
+HEADLINE (H2):
+The Professional Behind the Brand.
+
+PROFESSIONAL BIO — SHORT VERSION (for use in press, speaking, and media kits):
+
+Mr. Fish is a globally active Data Science and Full-Stack Software Consultant
+with [X]+ years of hands-on experience building intelligent, scalable systems
+for [startups / enterprises / agencies] across [key industries]. Combining
+deep expertise in [Machine Learning / Predictive Analytics / Python] with
+end-to-end full-stack engineering in [React / Node.js / cloud infrastructure],
+[he/she/they] bring a rare hybrid capability that bridges the gap between raw
+data infrastructure and production-grade software.
+
+Previously [key role/s], [he/she/they] has [key achievement — e.g., built
+analytics platforms processing X million data points daily / shipped X MVPs
+that secured Series A funding / led data architecture for X-person engineering
+teams]. Today, through Mr. Fish, [he/she/they] works directly with ambitious
+founders, corporate innovation leaders, and scaling agencies to turn
+technical complexity into measurable business growth.
+
+---
+
+PROFESSIONAL BIO — LONG VERSION (for the /history page):
+
+[PLACEHOLDER — TO BE COMPOSED IN NEXT STEP FROM PROVIDED SOURCE MATERIAL]
+
+The long-form bio should cover:
+✓ Origin story — how you got into data science and engineering
+✓ Key career turning points and roles (chronological or thematic)
+✓ Industries and company types you've worked with
+✓ The moment / realization that led to creating Mr. Fish as a brand
+✓ Approach / philosophy in 1–2 paragraphs
+✓ Personal element — what drives you beyond the work
+✓ Call to connect
+
+TARGET LENGTH: 350–500 words. Authoritative but human. Written in first person.
+
+---
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SUB-SECTION C — CAREER TIMELINE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION LABEL:
+Career Timeline
+
+HEADLINE (H2):
+Where I've Been. What I've Built.
+
+[DESIGN NOTE: Render as a vertical timeline — alternating left/right on
+desktop, full-width stack on mobile. Each card: role title, company,
+date range, 2–3 bullet point achievements, relevant tech tags.]
+
+TIMELINE ENTRY TEMPLATE:
+┌─────────────────────────────────────────────────────────────────┐
+│  [YEAR RANGE]                                                   │
+│  [JOB TITLE / ROLE]                                             │
+│  [Company Name] — [Location / Remote]                           │
+│                                                                 │
+│  • [Key achievement — quantified where possible]                │
+│  • [Key achievement — e.g., reduced X by Y%, built Z system]   │
+│  • [Key achievement or responsibility]                          │
+│                                                                 │
+│  Tags: [Python] [React] [Machine Learning] [AWS] [etc.]         │
+└─────────────────────────────────────────────────────────────────┘
+
+[PLACEHOLDER — TIMELINE ENTRIES TO BE COMPOSED IN NEXT STEP]
+Paste your LinkedIn work history, CV, or any other source documents and
+the timeline entries will be written to match the above format and brand tone.
+
+NOTE FOR DEVELOPER: Timeline cards should animate in on scroll (fade + slide
+up). Active/hovered card gets a subtle shark-blue accent border. Tags are
+pill badges in brand accent color.
+
+---
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SUB-SECTION D — EDUCATION & CERTIFICATIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION LABEL:
+Education & Credentials
+
+HEADLINE (H2):
+The Foundation Behind the Expertise.
+
+[DESIGN NOTE: Clean card grid — 2 columns desktop, 1 column mobile.
+Each card: institution name, credential, year, brief relevance note.]
+
+EDUCATION CARD TEMPLATE:
+┌─────────────────────────────────────────────────────────────────┐
+│  [Degree / Certification Name]                                  │
+│  [Institution / Platform]   |   [Year]                         │
+│  [1-line note on relevance to current work — optional]          │
+└─────────────────────────────────────────────────────────────────┘
+
+[PLACEHOLDER — TO BE COMPOSED IN NEXT STEP FROM PROVIDED SOURCE MATERIAL]
+
+---
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SUB-SECTION E — SKILLS & TECH STACK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION LABEL:
+Skills & Tech Stack
+
+HEADLINE (H2):
+The Toolkit. Assembled Over [X] Years in the Field.
+
+[DESIGN NOTE: Grouped skill pills/badges with subtle proficiency bars or
+dot indicators. Dark card background with glowing accent tags. Scannable.
+Do NOT use percentage bars — they look arbitrary and unverifiable. Use
+category groupings + visual weight instead.]
+
+SKILL CATEGORY BLOCKS:
+
+[Block 1: Data Science & Machine Learning]
+Python | Pandas | NumPy | Scikit-learn | TensorFlow / PyTorch | SQL |
+Predictive Modeling | NLP | Statistical Analysis | A/B Testing
+
+[Block 2: Data Engineering & Infrastructure]
+ETL Pipeline Design | Apache Spark | Airflow | dbt | BigQuery |
+PostgreSQL | MongoDB | Redis | REST API Design | GraphQL
+
+[Block 3: Full-Stack Engineering]
+React / Next.js | Node.js / Express | TypeScript | Tailwind CSS |
+HTML5 / CSS3 | Git / GitHub | Docker | CI/CD Pipelines
+
+[Block 4: Cloud & DevOps]
+AWS (EC2, S3, Lambda, RDS) | Google Cloud Platform | Vercel / Netlify |
+Linux / Bash | Infrastructure as Code
+
+[Block 5: Analytics & Visualization]
+Tableau | Power BI | Looker | D3.js | Metabase | Custom Dashboards
+
+[Block 6: Consulting & Strategy]
+Technical Audits | Architecture Roadmapping | Fractional CTO |
+Agile / Scrum | Stakeholder Communication | Team Mentoring
+
+[NOTE: Adjust and reorder based on your actual proficiency. Lead with your
+strongest, most commercially relevant skills.]
+
+---
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SUB-SECTION F — FEATURED PROJECTS (History Page)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION LABEL:
+Selected Work
+
+HEADLINE (H2):
+Problems Solved. Systems Built. Results Delivered.
+
+INTRO COPY:
+A curated selection of past engagements — chosen to illustrate the
+breadth of industries, the depth of technical challenge, and the
+measurable impact of each solution.
+
+[DESIGN NOTE: Masonry-style project cards or full-width case study rows.
+Each card: project category tag, one-line problem statement, key tech used,
+result metric. Click to expand or link to a full case study page.]
+
+PROJECT CARD TEMPLATE:
+┌─────────────────────────────────────────────────────────────────┐
+│  [CATEGORY TAG: e.g., Predictive Analytics | Fintech]           │
+│                                                                 │
+│  The Challenge:                                                 │
+│  [1–2 sentence description of the problem — no client names     │
+│   unless permitted]                                             │
+│                                                                 │
+│  The Solution:                                                  │
+│  [What was built — high level, no IP-sensitive specifics]       │
+│                                                                 │
+│  The Result:                                                    │
+│  [Quantified outcome — e.g., "Reduced churn by 23% in Q1"]     │
+│                                                                 │
+│  Stack: [Python] [PostgreSQL] [React] [AWS]                     │
+└─────────────────────────────────────────────────────────────────┘
+
+[PLACEHOLDER — CASE STUDIES TO BE COMPOSED IN NEXT STEP]
+Provide project descriptions, outcomes, and any relevant metrics and
+these will be written up in benefit-led, NDA-safe language.
+
+---
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SUB-SECTION G — HISTORY PAGE CTA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+HEADLINE (H2):
+You've Seen the Track Record. Now Let's Add Your Project to It.
+
+BODY COPY:
+Every entry on this page represents a real problem solved, a real system
+built, and a real business transformed. The next one could be yours.
+
+CTA BUTTONS:
+[ Book a Free Discovery Call ]        [ View Services ]
+
+SOCIAL PROOF CLOSER:
+LinkedIn badge / "Connect with me professionally →"
+GitHub link / "See the code →"
+
+
+================================================================================
+BONUS: SITE-WIDE DESIGN LANGUAGE NOTES (for developer handoff)
+================================================================================
+
+These notes ensure the "very modern" brief is executed consistently across
+all pages. Share with your designer or developer.
+
+OVERALL AESTHETIC:
+- Dark mode first (near-black background: #0A0A0F or similar deep navy/black)
+- Sharp, editorial typography — think Inter or Söhne for body,
+  a strong display font (Clash Display, Cabinet Grotesk, or similar) for H1/H2
+- Accent color: Electric blue or deep teal (#00D4FF or #0EA5E9) for
+  highlights, CTAs, and the shark brand elements
+- Secondary accent: Warm white (#F5F5F0) for body text
+- Motion: Subtle scroll-triggered fade-ins, no gimmicky animations
+- Imagery: Dark, high-contrast; abstract data/ocean visuals; avoid stock
+  photos of handshakes
+
+REFERENCE SITES FOR DESIGN DIRECTION:
+(These are tone references only — do not copy layouts)
+- linear.app — dark, clean, technical authority
+- leerob.io — personal brand done with extreme polish
+- basement.studio — bold, dark, modern agency feel
+- framer.com — smooth, premium motion design
+
+SOCIAL ICONS STYLE:
+- Monochrome (white/off-white) icons in navbar
+- Full-color hover state
+- Consistent 24px size in navbar, 28px in footer
+- Use Lucide or Radix icon sets for consistency
+
+WHATSAPP BUTTON INTEGRATION REMINDER:
+The WhatsApp floating button must appear on EVERY page — homepage, services,
+history, about, work-with-me, FAQ, contact, and any blog pages.
+It should be the last element in the DOM so it always renders on top.
+
+
+================================================================================
+END OF MR. FISH 🦈 WEBSITE COPY DOCUMENT
+================================================================================
