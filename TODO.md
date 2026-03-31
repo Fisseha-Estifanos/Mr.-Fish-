@@ -14,55 +14,60 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
 
 ---
 
-## PHASE 1 — CONTENT (BLOCKS BUILD UNTIL COMPLETE)
+## PHASE 1 — CONTENT ✅ (partially complete — see notes)
 
-> These tasks require YOUR input. Paste raw source material and the copy will be composed to match FULL WEBSITE.txt structure and Mr. Fish brand voice.
+- [x] **1.1** Professional history sourced from GitHub, Google Sites, scraped public profiles
+  - [x] Career timeline entries — 4 roles written (`data/timeline.ts`)
+  - [x] Education cards — 2 entries written (`data/education.ts`)
+  - [x] Featured project case studies — 5 projects written (`data/projects.ts`)
+  - [x] History page professional bio section added (`/history` page)
+  - [ ] LinkedIn export not yet received — update when available
 
-- [ ] **1.1** Provide professional history source material (LinkedIn export, CV, project descriptions, any existing bios) so the following can be composed:
-  - Long-form bio (350–500 words, first person) for `/history` — Sub-section B
-  - Career timeline entries (role, company, dates, achievements, tech tags) — Sub-section C
-  - Education & certification cards — Sub-section D
-  - Featured project case study cards (NDA-safe) — Sub-section F
+- [x] **1.2** Site-wide placeholder variables:
+  - [x] Email — `fisseha.137@gmail.com`
+  - [x] WhatsApp — `251921307745`
+  - [x] LinkedIn — `linkedin.com/in/fisseha-estifanos-109ba6199/`
+  - [x] GitHub — `github.com/Fisseha-Estifanos`
+  - [x] Medium — `medium.com/@rasfish5`
+  - [x] Domain — `fish.pro.et`
+  - [x] Twitter / X handle — `@fish0_16` → `x.com/fish0_16`
+  - ~~Instagram~~ — removed from site
+  - ~~YouTube~~ — removed from site
+  - [ ] Calendly URL — **to be added** (currently empty string fallback)
 
-- [ ] **1.2** Confirm and fill all site-wide placeholder variables:
-  - [ ] Email address
-  - [ ] WhatsApp international number (format: `447911123456`, no `+` or spaces)
-  - [ ] Calendly / booking link URL
-  - [ ] LinkedIn profile URL
-  - [ ] GitHub username / URL
-  - [ ] Twitter / X handle
-  - [ ] Instagram handle
-  - [ ] YouTube channel URL
-  - [ ] Custom domain (for sitemap, canonical URLs, and OG images)
+- [x] **1.3** History page bio section written — origin (AAiT) → ICare roles → 10 Academy → Mr. Fish launch → current AI/RAG focus
 
-- [ ] **1.3** Compose long-form professional bio from provided source material (origin story → key roles → turning points → Mr. Fish founding moment → philosophy → personal driver → CTA)
+- [x] **1.4** Career timeline written (`data/timeline.ts`) — 4 chronological entries
 
-- [ ] **1.4** Write all career timeline entries in brand voice from source material — one entry per role, format per `data/timeline.ts` interface in DESIGN_SPEC.md
+- [x] **1.5** Education & credential cards written (`data/education.ts`)
 
-- [ ] **1.5** Write education & certification cards from source material — degree/cert name, institution, year, one-line relevance note
+- [x] **1.6** 5 project case study cards written (`data/projects.ts`) in NDA-safe, business-impact language
 
-- [ ] **1.6** Write featured project case study cards from source material — category, challenge, solution, quantified result, tech stack (NDA-safe language throughout)
+- [x] **1.7** Skills & Tech Stack finalised — removed unconfirmed tools (Tableau, Power BI, Looker, D3.js, Metabase, Redis, GraphQL, BigQuery, PyTorch); added Generative AI & LLMs category as primary
 
-- [ ] **1.7** Verify and finalise Skills & Tech Stack list (Sub-section E) against your actual proficiency — remove any pre-populated items that don't apply, add any missing ones
-
-- [ ] **1.8** Decide on stat strip numbers for MVP launch — conservative real values or honest "X+" approximations for: Projects Shipped, Global Clients, Industries, Years Experience
+- [x] **1.8** Stat strip set to conservative values: 10+ Projects, 5+ Clients, 5+ Industries, 100% Direct Senior Access
 
 ---
 
-## PHASE 2 — PROJECT SETUP
 
-- [ ] **2.1** Initialise Next.js 14 project with App Router, TypeScript, Tailwind CSS v3, and ESLint
+> ✅ **Built:** Next.js 16 (App Router) + TypeScript + Tailwind CSS v4 + Framer Motion.
+> All pages scaffold complete and building cleanly. Awaiting Phase 1 content to populate /history page.
+> Social icons: custom inline SVGs (LinkedIn not in @icons-pack — resolved with SocialIcons.tsx component).
+
+## PHASE 2 — PROJECT SETUP ✅
+
+- [x] **2.1** Initialise Next.js 14 project with App Router, TypeScript, Tailwind CSS v3, and ESLint
   ```bash
   npx create-next-app@latest mr-fish --typescript --tailwind --eslint --app --src-dir=false --import-alias="@/*"
   ```
 
-- [ ] **2.2** Configure `tailwind.config.ts` with all brand design tokens from DESIGN_SPEC.md — color palette, font families, spacing scale, border-radius, box-shadow presets
+- [x] **2.2** Configure `tailwind.config.ts` with all brand design tokens from DESIGN_SPEC.md — color palette, font families, spacing scale, border-radius, box-shadow presets
 
-- [ ] **2.3** Set up `styles/globals.css` — Tailwind directives, CSS custom properties (all `--color-*` tokens), keyframe animations (pulse-ring, slide-in-fab, fade-up, stagger variants)
+- [x] **2.3** Set up `styles/globals.css` — Tailwind directives, CSS custom properties (all `--color-*` tokens), keyframe animations (pulse-ring, slide-in-fab, fade-up, stagger variants)
 
-- [ ] **2.4** Configure `lib/fonts.ts` — next/font setup for Clash Display (local/fontshare), Cabinet Grotesk (local/fontshare), Inter (Google), JetBrains Mono (Google)
+- [x] **2.4** Configure `lib/fonts.ts` — next/font setup for Clash Display (local/fontshare), Cabinet Grotesk (local/fontshare), Inter (Google), JetBrains Mono (Google)
 
-- [ ] **2.5** Install all dependencies:
+- [x] **2.5** Install all dependencies:
   - `framer-motion` — scroll animations
   - `lucide-react` — UI icons
   - `react-simple-icons` (or `@icons-pack/react-simple-icons`) — social brand icons
@@ -71,11 +76,11 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
   - `next-sitemap` — sitemap + robots.txt generation
   - `@vercel/og` — dynamic OG image generation (built into Next.js 14)
 
-- [ ] **2.6** Create `lib/constants.ts` — single source of truth for all site config: domain, social URLs, WhatsApp link (built from number), Calendly URL, email, nav links array
+- [x] **2.6** Create `lib/constants.ts` — single source of truth for all site config: domain, social URLs, WhatsApp link (built from number), Calendly URL, email, nav links array
 
-- [ ] **2.7** Create `lib/animations.ts` — Framer Motion variant library: `fadeUp`, `fadeIn`, `staggerContainer`, `staggerChild`, `slideInLeft`, `slideInRight` — all with `prefers-reduced-motion` fallbacks
+- [x] **2.7** Create `lib/animations.ts` — Framer Motion variant library: `fadeUp`, `fadeIn`, `staggerContainer`, `staggerChild`, `slideInLeft`, `slideInRight` — all with `prefers-reduced-motion` fallbacks
 
-- [ ] **2.8** Scaffold all data files in `/data/` with TypeScript interfaces and placeholder arrays:
+- [x] **2.8** Scaffold all data files in `/data/` with TypeScript interfaces and placeholder arrays:
   - `data/services.ts`
   - `data/timeline.ts`
   - `data/education.ts`
@@ -84,15 +89,15 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
   - `data/testimonials.ts`
   - `data/faq.ts`
 
-- [ ] **2.9** Create full file/folder structure as defined in DESIGN_SPEC.md Section 15 — create all page routes, component folders, and index files
+- [x] **2.9** Create full file/folder structure as defined in DESIGN_SPEC.md Section 15 — create all page routes, component folders, and index files
 
-- [ ] **2.10** Set up `app/layout.tsx` — root layout with: font class injection, Navbar, Footer, WhatsAppFAB, global metadata defaults, GA4 script placeholder
+- [x] **2.10** Set up `app/layout.tsx` — root layout with: font class injection, Navbar, Footer, WhatsAppFAB, global metadata defaults, GA4 script placeholder
 
 ---
 
-## PHASE 3 — GLOBAL COMPONENTS
+## PHASE 3 — GLOBAL COMPONENTS ✅
 
-- [ ] **3.1** Build `components/layout/Navbar.tsx`
+- [x] **3.1** Build `components/layout/Navbar.tsx`
   - Sticky top, `backdrop-blur`, `bg-surface/85`
   - Logo/brand name left (Clash Display, links to `/`)
   - Nav links centre: Services | History | About | Work With Me | FAQ | Contact | Blog
@@ -101,7 +106,7 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
   - Scroll > 50px: slightly more opaque border-bottom
   - Mobile: hamburger → full-screen overlay with stacked links + social icons + WhatsApp button
 
-- [ ] **3.2** Build `components/layout/Footer.tsx`
+- [x] **3.2** Build `components/layout/Footer.tsx`
   - Brand tagline
   - Navigation link columns
   - Full social icons block with platform label and description (per FULL WEBSITE.txt Section 12)
@@ -109,7 +114,7 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
   - SEO copy paragraph (keyword-dense, small text)
   - Copyright line
 
-- [ ] **3.3** Build `components/layout/WhatsAppFAB.tsx`
+- [x] **3.3** Build `components/layout/WhatsAppFAB.tsx`
   - Fixed bottom-right, z-50, 56px circle (52px mobile)
   - `#25D366` green with CSS pulse ring animation
   - Slide-in from bottom after 2.5s delay on page load
@@ -119,7 +124,7 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
   - aria-label: "Chat with Mr. Fish on WhatsApp"
   - Visible on every page via root layout
 
-- [ ] **3.4** Build reusable UI primitives in `components/ui/`:
+- [x] **3.4** Build reusable UI primitives in `components/ui/`:
   - `Button.tsx` — primary / secondary / ghost variants, size props, loading state
   - `SectionLabel.tsx` — eyebrow text, JetBrains Mono, accent color, optional left rule
   - `TagPill.tsx` — tech / category / segment variants
@@ -135,9 +140,9 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
 
 ---
 
-## PHASE 4 — HOMEPAGE (/)
+## PHASE 4 — HOMEPAGE (/) ✅
 
-- [ ] **4.1** Build `components/sections/home/Hero.tsx`
+- [x] **4.1** Build `components/sections/home/Hero.tsx`
   - Full-screen (min-h-screen), centered text layout
   - Subtle radial accent glow background
   - Optional: low-opacity data grid SVG pattern
@@ -148,14 +153,14 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
   - Social icon row (LinkedIn, GitHub, X, Instagram, YouTube)
   - Scroll indicator arrow at bottom
 
-- [ ] **4.2** Build `components/sections/home/TrustStrip.tsx`
+- [x] **4.2** Build `components/sections/home/TrustStrip.tsx`
   - Eyebrow: "Areas of Deep Expertise"
   - Horizontally scrolling marquee on mobile, pill grid on desktop
   - Tech tags pulled from `data/skills.ts` (top-level set)
   - Stat strip below: X+ Projects | X+ Clients | X Industries | 100% Direct Access
   - Micro-copy: "No junior hand-offs. No account managers. You get me, every time."
 
-- [ ] **4.3** Build `components/sections/home/ValueProp.tsx`
+- [x] **4.3** Build `components/sections/home/ValueProp.tsx`
   - Section label: "Why Mr. Fish"
   - H2: "One Expert Who Sees the Entire Chessboard."
   - Subheadline + body copy (from FULL WEBSITE.txt Section 3)
@@ -163,7 +168,7 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
   - Each card: Lucide icon (accent), title, body copy
   - Secondary CTA row at bottom
 
-- [ ] **4.4** Build `components/sections/home/ProblemSolution.tsx`
+- [x] **4.4** Build `components/sections/home/ProblemSolution.tsx`
   - Section label: "The Problem"
   - H2 headline
   - Three audience problem blocks: Startup Founder | CTO | Agency
@@ -172,14 +177,14 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
   - Each block: H3 problem, problem copy, solution response copy
   - Transition CTA at bottom
 
-- [ ] **4.5** Build `components/sections/home/ServicesPreview.tsx`
+- [x] **4.5** Build `components/sections/home/ServicesPreview.tsx`
   - Section label: "What I Build"
   - H2 headline
   - 5 service teaser cards (condensed from full service cards) — icon, title, tagline, one-line benefit
   - "See All Services →" link at bottom
   - Discovery call CTA below
 
-- [ ] **4.6** Build `components/sections/home/Testimonials.tsx`
+- [x] **4.6** Build `components/sections/home/Testimonials.tsx`
   - Section label: "Results That Speak"
   - H2 headline + intro copy
   - Three testimonial cards (content from `data/testimonials.ts`)
@@ -187,7 +192,7 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
   - "As Featured In" placeholder logo strip
   - Mobile: horizontal scroll carousel; Desktop: 3-column grid
 
-- [ ] **4.7** Build `components/sections/home/WhyNotAlternatives.tsx`
+- [x] **4.7** Build `components/sections/home/WhyNotAlternatives.tsx`
   - Section label: "Why Not Just..."
   - H2: "You've Had the Other Options. Here's Why They Didn't Work."
   - Intro copy
@@ -195,9 +200,9 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
   - Each: H3, copy, differentiation tag pill (green)
   - Transition CTA
 
-- [ ] **4.8** Assemble `app/page.tsx` — compose all homepage sections in order, add scroll-reveal wrappers, set page metadata
+- [x] **4.8** Assemble `app/page.tsx` — compose all homepage sections in order, add scroll-reveal wrappers, set page metadata
 
-- [ ] **4.9** Set homepage SEO metadata in `app/page.tsx`:
+- [x] **4.9** Set homepage SEO metadata in `app/page.tsx`:
   - Title: "Mr. Fish | Apex Data Science & Full-Stack Consulting"
   - Meta description (from FULL WEBSITE.txt)
   - OG title, OG description, OG image
@@ -206,38 +211,38 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
 
 ---
 
-## PHASE 5 — SERVICES PAGE (/services)
+## PHASE 5 — SERVICES PAGE (/services) ✅
 
-- [ ] **5.1** Build services page layout in `app/services/page.tsx`
+- [x] **5.1** Build services page layout in `app/services/page.tsx`
   - Page hero: H1, subheadline, breadcrumb nav
   - Full-width horizontal service card per service (desktop) / stacked (mobile)
   - All 5 services rendered from `data/services.ts`
   - Each: icon, H3, tagline, body, benefit checklist, ideal-for tags, CTA button
   - Bottom section CTA: "Not sure which is right? Book a Discovery Call"
 
-- [ ] **5.2** Populate `data/services.ts` with all 5 service entries (content from FULL WEBSITE.txt Section 5)
+- [x] **5.2** Populate `data/services.ts` with all 5 service entries (content from FULL WEBSITE.txt Section 5)
 
-- [ ] **5.3** Set `/services` SEO metadata — title, meta description, semantic keywords per service
+- [x] **5.3** Set `/services` SEO metadata — title, meta description, semantic keywords per service
 
 ---
 
-## PHASE 6 — HISTORY PAGE (/history)
+## PHASE 6 — HISTORY PAGE (/history) ✅
 
 > Requires Phase 1 content tasks to be complete.
 
-- [ ] **6.1** Build `components/sections/history/HistoryHero.tsx`
+- [x] **6.1** Build `components/sections/history/HistoryHero.tsx`
   - Page hero: section label "The Track Record", H1, subheadline
   - LinkedIn badge embed placeholder
   - GitHub contribution graph placeholder
   - Social proof strip: X+ Years | X+ Projects | X Industries
 
-- [ ] **6.2** Build `components/sections/history/BioBio.tsx`
+- [x] **6.2** Build `components/sections/history/BioBio.tsx`
   - H2: "The Professional Behind the Brand."
   - Short bio block (populated from `data/bio.ts` or inline)
   - Long-form bio (populated once Phase 1.3 is complete)
   - LinkedIn + GitHub prominent link CTAs
 
-- [ ] **6.3** Build `components/sections/history/CareerTimeline.tsx`
+- [x] **6.3** Build `components/sections/history/CareerTimeline.tsx`
   - Centered vertical connector line
   - Timeline cards alternating left/right (desktop), full-width stack (mobile)
   - Year badges on connector line, accent colored
@@ -245,35 +250,35 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
   - Tech tag pills per entry
   - Populated from `data/timeline.ts`
 
-- [ ] **6.4** Build `components/sections/history/EducationGrid.tsx`
+- [x] **6.4** Build `components/sections/history/EducationGrid.tsx`
   - H2: "The Foundation Behind the Expertise."
   - 2-column grid desktop / 1-column mobile
   - Education cards from `data/education.ts`
 
-- [ ] **6.5** Build `components/sections/history/SkillsStack.tsx`
+- [x] **6.5** Build `components/sections/history/SkillsStack.tsx`
   - H2: "The Toolkit."
   - Grouped skill tag clouds by category (6 groups per DESIGN_SPEC.md)
   - Category labels in JetBrains Mono eyebrow style
   - NO percentage bars — visual weight via tag size/grouping only
 
-- [ ] **6.6** Build `components/sections/history/FeaturedProjects.tsx`
+- [x] **6.6** Build `components/sections/history/FeaturedProjects.tsx`
   - H2: "Problems Solved. Systems Built. Results Delivered."
   - 2-column masonry or grid of project cards
   - Content from `data/projects.ts`
   - Expandable / case study link per card
 
-- [ ] **6.7** Build history page CTA section (`components/sections/shared/PageCTA.tsx` reused)
+- [x] **6.7** Build history page CTA section (`components/sections/shared/PageCTA.tsx` reused)
   - H2: "You've Seen the Track Record. Now Let's Add Your Project to It."
   - Dual CTA: Book Discovery Call + View Services
   - LinkedIn badge + GitHub link closer
 
-- [ ] **6.8** Assemble `app/history/page.tsx` and set SEO metadata
+- [x] **6.8** Assemble `app/history/page.tsx` and set SEO metadata
 
 ---
 
-## PHASE 7 — ABOUT PAGE (/about)
+## PHASE 7 — ABOUT PAGE (/about) ✅
 
-- [ ] **7.1** Build `app/about/page.tsx`
+- [x] **7.1** Build `app/about/page.tsx`
   - Section label: "The Consultant Behind the Brand"
   - H2: "Why 'Mr. Fish'? Because in a Sea of Average, You Need an Apex Partner."
   - Opening hook + story body copy + mission statement (from FULL WEBSITE.txt Section 7)
@@ -281,13 +286,13 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
   - Each value card: Lucide icon (accent), title, copy
   - CTA: Book Discovery Call
 
-- [ ] **7.2** Set `/about` SEO metadata
+- [x] **7.2** Set `/about` SEO metadata
 
 ---
 
-## PHASE 8 — PRICING PAGE (/work-with-me)
+## PHASE 8 — PRICING PAGE (/work-with-me) ✅
 
-- [ ] **8.1** Build `app/work-with-me/page.tsx`
+- [x] **8.1** Build `app/work-with-me/page.tsx`
   - Section label: "Engagement Models"
   - H2: "Serious Expertise, Structured for Your Stage."
   - Intro copy + disclaimer note
@@ -300,15 +305,15 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
   - Pricing disclaimer copy
   - Bottom CTA: Book Free Discovery Call
 
-- [ ] **8.2** Set `/work-with-me` SEO metadata — title, meta description, semantic targets (fractional CTO cost, data science consultant pricing, etc.)
+- [x] **8.2** Set `/work-with-me` SEO metadata — title, meta description, semantic targets (fractional CTO cost, data science consultant pricing, etc.)
 
 ---
 
-## PHASE 9 — FAQ PAGE (/faq)
+## PHASE 9 — FAQ PAGE (/faq) ✅
 
-- [ ] **9.1** Populate `data/faq.ts` with all 10 FAQ entries (content from FULL WEBSITE.txt Section 10)
+- [x] **9.1** Populate `data/faq.ts` with all 10 FAQ entries (content from FULL WEBSITE.txt Section 10)
 
-- [ ] **9.2** Build `app/faq/page.tsx`
+- [x] **9.2** Build `app/faq/page.tsx`
   - Section label + H2: "Your Questions, Answered Directly."
   - 10 FAQ items using `FAQAccordion.tsx` component
   - Accessible: aria-expanded, role="region", keyboard navigation
@@ -316,22 +321,22 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
   - Question number prefix in accent (optional)
   - Bottom CTA: Book Discovery Call
 
-- [ ] **9.3** Inject FAQ JSON-LD schema markup (all 10 Q&As) for Google rich results
+- [x] **9.3** Inject FAQ JSON-LD schema markup (all 10 Q&As) for Google rich results
 
-- [ ] **9.4** Set `/faq` SEO metadata
+- [x] **9.4** Set `/faq` SEO metadata
 
 ---
 
-## PHASE 10 — CONTACT PAGE (/contact)
+## PHASE 10 — CONTACT PAGE (/contact) ✅
 
-- [ ] **10.1** Build `app/contact/page.tsx`
+- [x] **10.1** Build `app/contact/page.tsx`
   - Split layout: left = copy + contact details + social CTAs; right = form + Calendly embed
   - Section label + H2: "The Gap Between Where You Are and Where You Want to Be Is Usually Technical. Let's Close It."
   - Body copy
   - Contact details block: email, LinkedIn, "Available Globally | Remote-First", response time
   - Secondary CTA links: Custom Estimate | Fractional CTO | Direct Message
 
-- [ ] **10.2** Build `components/forms/ContactForm.tsx`
+- [x] **10.2** Build `components/forms/ContactForm.tsx`
   - Fields: Name, Company/Org, Email, Role (dropdown: Startup Founder | CTO/Tech Leader | Agency Owner | Other), Biggest Technical Challenge (short text), Submit button
   - `react-hook-form` + `zod` validation
   - Input focus: accent border + glow
@@ -339,20 +344,20 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
   - Success state: confirmation message (no page reload)
   - Error state: inline error messages per field
 
-- [ ] **10.3** Build `app/api/contact/route.ts` — receive form POST, send email via Resend to the owner's address with form field data
+- [x] **10.3** Build `app/api/contact/route.ts` — receive form POST, send email via Resend to the owner's address with form field data
 
-- [ ] **10.4** Integrate Calendly embed widget
+- [x] **10.4** Integrate Calendly embed widget
   - Inline embed or popup trigger on "Book Discovery Call" button click
   - Apply dark theme to Calendly embed to match site aesthetic
   - Calendly URL stored in `lib/constants.ts`
 
-- [ ] **10.5** Set `/contact` SEO metadata
+- [x] **10.5** Set `/contact` SEO metadata
 
 ---
 
 ## PHASE 11 — BLOG HOLDING PAGE (/blog)
 
-- [ ] **11.1** Build `app/blog/page.tsx` — Coming Soon holding page
+- [x] **11.1** Build `app/blog/page.tsx` — Coming Soon holding page
   - H1: "Insights on Data, Engineering & Growth" (or similar)
   - Subheadline + brief description of upcoming content
   - Teaser cards for 4 content clusters (per FULL WEBSITE.txt Bonus section):
@@ -363,7 +368,7 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
   - Email capture: "Notify Me When We Launch" — name + email → stores to mailing list (Resend audience or Mailchimp)
   - CTA: Link back to Contact page
 
-- [ ] **11.2** Set `/blog` SEO metadata
+- [x] **11.2** Set `/blog` SEO metadata
 
 ---
 
