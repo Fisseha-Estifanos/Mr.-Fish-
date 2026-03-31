@@ -67,9 +67,11 @@ export function Button({ variant = "primary", size = "md", className = "", child
     );
   }
 
-  const { ...buttonRest } = props as ButtonAsButton;
+  // Strip link-only props that don't belong on a <button> element
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const { href: _href, external: _external, ...buttonRest } = props as Record<string, unknown> & ButtonAsButton;
   return (
-    <button className={styles} style={inlineStyle} {...buttonRest}>
+    <button className={styles} style={inlineStyle} {...(buttonRest as ButtonHTMLAttributes<HTMLButtonElement>)}>
       {children}
     </button>
   );

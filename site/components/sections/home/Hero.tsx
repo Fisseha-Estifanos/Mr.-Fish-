@@ -59,7 +59,13 @@ export function Hero() {
             The Apex Tech Partner
             <br />
             <span
-              className="gradient-accent bg-clip-text text-transparent"
+              style={{
+                background: "linear-gradient(135deg, #00d4ff 0%, #0ea5e9 50%, #7c3aed 100%)",
+                WebkitBackgroundClip: "text",
+                backgroundClip: "text",
+                color: "transparent",
+                display: "inline-block",
+              }}
             >
               Your Business Has Been Missing.
             </span>
