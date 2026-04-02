@@ -372,6 +372,43 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
 
 ---
 
+## PHASE 11B — POST-LAUNCH FEATURES ✅
+
+- [x] **11B.1** Functional email system — `app/api/contact/route.ts` using Resend; fires from all contact form submissions across the site. Resend initialized lazily inside handler to avoid build-time errors.
+  - Requires `RESEND_API_KEY` env var in Vercel
+  - Requires `RESEND_FROM_EMAIL=noreply@fish.pro.et` once domain is verified in Resend
+  - Until domain verified: uses `onboarding@resend.dev` (only delivers to Resend-registered email)
+
+- [x] **11B.2** ContactForm upgraded — real `fetch` POST to `/api/contact`, loading state, success screen with reset, inline error display
+
+- [x] **11B.3** Profile photo section on `/history` hero — 2-col layout desktop, photo right
+  - **Add your photo at `site/public/images/profile.jpg`** — shows branded 🦈 placeholder until then
+
+- [x] **11B.4** `/links` page (Linktree-style) — standalone shareable URL at `fish.pro.et/links`
+  - Cards: Website, WhatsApp, Email, LinkedIn, GitHub, Twitter/X, Medium, Portfolio
+  - No Navbar/Footer — clean standalone page
+
+- [x] **11B.5** Dark / Light / System theme toggle
+  - `lib/theme.tsx` — ThemeProvider + useTheme hook
+  - `components/ui/ThemeToggle.tsx` — Sun/Monitor/Moon cycle button in Navbar (desktop + mobile)
+  - Light mode token set in `globals.css` under `[data-theme="light"]`
+  - No-flash inline script in layout prevents FOUC
+  - Persists to `localStorage`
+
+- [x] **11B.6** Navbar theme-aware — background, border, and text colors all use CSS variables; light mode uses soft grey translucent background
+
+- [x] **11B.7** Hardcoded color audit — replaced all `rgba(0,212,255,...)` and `#00d4ff` with CSS variable tokens (`--color-accent-tint`, `--color-accent-subtle`, `--color-accent-border`, etc.) across all pages and components
+
+- [x] **11B.8** Active nav link indicator — tiny accent dot under active link (desktop), accent dot left of active link (mobile); uses `usePathname`
+
+- [x] **11B.9** Vercel Analytics integrated — `@vercel/analytics/next` `<Analytics />` component in root layout
+
+- [x] **11B.10** Favicon — `app/icon.svg` with 🦈 emoji; `favicon.ico` removed so SVG takes priority
+
+- [x] **11B.11** GitHub profile README — `GITHUB_PROFILE.md` at repo root; copy to `Fisseha-Estifanos/Fisseha-Estifanos` repo as `README.md`
+
+---
+
 ## PHASE 12 — SEO TECHNICAL
 
 - [ ] **12.1** Configure `next-sitemap` — `next-sitemap.config.js` covering all page routes: `/`, `/services`, `/about`, `/history`, `/work-with-me`, `/faq`, `/contact`, `/blog`
@@ -437,17 +474,15 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
 
 ## PHASE 14 — LAUNCH
 
-- [ ] **14.1** Create GitHub repository, push all code, verify CI passes
+- [x] **14.1** Create GitHub repository, push all code, verify CI passes
 
-- [ ] **14.2** Set up Vercel project — connect GitHub repo, configure:
-  - Environment variables: `RESEND_API_KEY`, `NEXT_PUBLIC_GA_ID`, `NEXT_PUBLIC_WHATSAPP_NUMBER`, `NEXT_PUBLIC_CALENDLY_URL`, `NEXT_PUBLIC_SITE_URL`
-  - Production branch: `main`
-  - Build command: `npm run build`
-  - Run `next-sitemap` as post-build step
+- [x] **14.2** Set up Vercel project — connected to GitHub repo, auto-deploys on push to `main`
+  - Still needed: add `RESEND_API_KEY` and `RESEND_FROM_EMAIL` env vars in Vercel dashboard
+  - Still needed: add `NEXT_PUBLIC_CALENDLY_URL` when Calendly is ready
 
-- [ ] **14.3** Connect custom domain in Vercel — add DNS records, verify SSL certificate, configure `www` → apex redirect (or vice versa)
+- [x] **14.3** Connected custom domain `fish.pro.et` in Vercel — DNS TXT + CNAME records added
 
-- [ ] **14.4** Update `NEXT_PUBLIC_SITE_URL` and all canonical URLs with real domain
+- [x] **14.4** `NEXT_PUBLIC_SITE_URL=https://fish.pro.et` set in `lib/constants.ts`
 
 - [ ] **14.5** Verify sitemap is accessible at `https://[domain]/sitemap.xml`
 
