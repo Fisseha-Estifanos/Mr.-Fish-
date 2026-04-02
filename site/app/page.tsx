@@ -10,11 +10,11 @@ import { PageCTA } from "@/components/sections/shared/PageCTA";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Mr. Fish | Apex Data Science & Full-Stack Consulting",
+  title: "Mr. Fish | Apex Data Science and Analytics & Full-Stack Consulting",
   description:
     "Stop managing fragmented freelancers and guessing from messy data. Mr. Fish is your apex consulting partner — combining full-stack engineering and advanced data science to build intelligent, scalable systems that drive real growth.",
   openGraph: {
-    title: "Mr. Fish | Apex Data Science & Full-Stack Consulting",
+    title: "Mr. Fish | Apex Data Science and Analytics & Full-Stack Consulting",
     description:
       "Stop managing fragmented freelancers and guessing from messy data. Mr. Fish is your apex consulting partner — combining full-stack engineering and advanced data science to build intelligent, scalable systems that drive real growth.",
     url: SITE_URL,

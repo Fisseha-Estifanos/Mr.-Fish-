@@ -345,7 +345,7 @@ Horizontal: centered text with max-width 800px for copy
 - Consider: abstract data grid pattern (very low opacity, #00D4FF at 3-5% opacity)
 
 ### Content Stack (top to bottom)
-1. Eyebrow label: "Apex Data Science & Full-Stack Consulting"
+1. Eyebrow label: "Apex Data Science and Analytics & Full-Stack Consulting"
 2. H1: "The Apex Tech Partner Your Business Has Been Missing."
 3. Subheadline: "Full-Stack Engineering. Advanced Data Science. One Expert. Zero Hand-Offs. Zero Excuses."
 4. Body copy (max-width 620px, centered)

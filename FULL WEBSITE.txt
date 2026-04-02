@@ -39,7 +39,7 @@ Secondary / Long-Tail Keywords:
 SECTION 1 — HERO SECTION
 ================================================================================
 
-[PAGE SLUG: / | TITLE TAG: Mr. Fish | Apex Data Science & Full-Stack Consulting]
+[PAGE SLUG: / | TITLE TAG: Mr. Fish | Apex Data Science and Analytics & Full-Stack Consulting]
 [META DESCRIPTION: Stop managing fragmented freelancers and guessing from messy data. Mr. Fish is your apex consulting partner — combining full-stack engineering and advanced data science to build intelligent, scalable systems that drive real growth.]
 
 ---
@@ -970,7 +970,7 @@ SECTION 12 — FOOTER
 FOOTER COPY:
 
 BRAND TAGLINE (Footer):
-Mr. Fish 🦈 — Apex Data Science & Full-Stack Consulting.
+Mr. Fish 🦈 — Apex Data Science and Analytics & Full-Stack Consulting.
 Building intelligent, scalable systems for ambitious companies worldwide.
 
 NAVIGATION LINKS (Desktop — top navbar):

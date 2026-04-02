@@ -203,7 +203,7 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
 - [x] **4.8** Assemble `app/page.tsx` — compose all homepage sections in order, add scroll-reveal wrappers, set page metadata
 
 - [x] **4.9** Set homepage SEO metadata in `app/page.tsx`:
-  - Title: "Mr. Fish | Apex Data Science & Full-Stack Consulting"
+  - Title: "Mr. Fish | Apex Data Science and Analytics & Full-Stack Consulting"
   - Meta description (from FULL WEBSITE.txt)
   - OG title, OG description, OG image
   - Canonical URL

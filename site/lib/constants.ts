@@ -1,7 +1,7 @@
 // ── Site config ──────────────────────────────────────────────
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://fish.pro.et";
 export const SITE_NAME = "Mr. Fish";
-export const SITE_TAGLINE = "Apex Data Science & Full-Stack Consulting";
+export const SITE_TAGLINE = "Apex Data Science and Analytics & Full-Stack Consulting";
 
 // ── Contact ───────────────────────────────────────────────────
 export const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "fisseha.137@gmail.com";
