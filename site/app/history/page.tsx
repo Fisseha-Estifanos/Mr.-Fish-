@@ -76,11 +76,11 @@ export default function HistoryPage() {
                     if (fallback) fallback.style.display = "flex";
                   }}
                 />
-                {/* Fallback shown until you add your photo at public/images/profile.png */}
+                {/* Fallback — hidden by default, shown only if image fails to load */}
                 <div
                   className="absolute inset-0 flex-col items-center justify-center gap-3"
                   style={{
-                    display: "flex",
+                    display: "none",
                     background: "linear-gradient(135deg, var(--color-surface) 0%, var(--color-surface-raised) 100%)",
                     border: "1px solid var(--color-border)",
                   }}
