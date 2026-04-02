@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { MessageCircle } from "lucide-react";
+import { Globe } from "lucide-react";
 import {
   LinkedInIcon,
   GitHubIcon,
@@ -39,6 +39,12 @@ const socialPlatforms = [
     href: SOCIAL.whatsapp,
     label: "WhatsApp",
     description: "Direct message — fastest response guaranteed",
+  },
+  {
+    icon: Globe,
+    href: "/links",
+    label: "All Links",
+    description: "One page with every link and contact method",
   },
 ];
 

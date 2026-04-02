@@ -30,6 +30,7 @@ export const NAV_LINKS = [
   { label: "FAQ", href: "/faq" },
   { label: "Contact", href: "/contact" },
   { label: "Blog", href: "/blog" },
+  { label: "All Links", href: "/links" },
 ] as const;
 
 // ── Analytics ─────────────────────────────────────────────────

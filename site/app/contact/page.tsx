@@ -92,6 +92,14 @@ export default function ContactPage() {
                   <LinkedInIcon size={18} style={{ color: "#0a66c2" }} />
                   Connect on LinkedIn
                 </a>
+                <a
+                  href="/links"
+                  className="flex items-center gap-3 px-5 py-3.5 rounded-xl text-sm font-medium transition-all hover:opacity-90"
+                  style={{ background: "var(--color-surface)", border: "1px solid var(--color-border)", color: "var(--color-text-primary)" }}
+                >
+                  <Globe size={18} style={{ color: "var(--color-accent)" }} />
+                  All Links — One Page
+                </a>
               </div>
 
               {/* Contact details */}
