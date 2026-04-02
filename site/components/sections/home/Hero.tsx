@@ -33,7 +33,7 @@ export function Hero() {
 
       {/* Subtle grid pattern */}
       <div
-        className="absolute inset-0 pointer-events-none opacity-[0.03]"
+        className="absolute inset-0 pointer-events-none opacity-[0.1]"
         style={{
           backgroundImage:
             "linear-gradient(var(--color-accent) 1px, transparent 1px), linear-gradient(90deg, var(--color-accent) 1px, transparent 1px)",
