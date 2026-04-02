@@ -9,7 +9,7 @@ import {
   MediumIcon,
 } from "@/components/ui/SocialIcons";
 import { Button } from "@/components/ui/Button";
-import { heroStagger, staggerChild, viewportOnce } from "@/lib/animations";
+import { heroStagger, staggerChild } from "@/lib/animations";
 import { SOCIAL, CALENDLY_URL } from "@/lib/constants";
 
 const socialLinks = [
@@ -31,13 +31,15 @@ export function Hero() {
         aria-hidden
       />
 
-      {/* Subtle grid pattern */}
+      {/* Subtle grid pattern with radial fade */}
       <div
-        className="absolute inset-0 pointer-events-none opacity-[0.1]"
+        className="absolute inset-0 pointer-events-none opacity-[0.2]"
         style={{
           backgroundImage:
             "linear-gradient(var(--color-accent) 1px, transparent 1px), linear-gradient(90deg, var(--color-accent) 1px, transparent 1px)",
           backgroundSize: "60px 60px",
+          maskImage: "radial-gradient(ellipse 60% 60% at 50% 50%, black 0%, transparent 100%)",
+          WebkitMaskImage: "radial-gradient(ellipse 60% 60% at 50% 50%, black 0%, transparent 100%)",
         }}
         aria-hidden
       />
