@@ -55,7 +55,7 @@ site/
 │   └── theme.tsx           # ThemeProvider + useTheme hook
 └── public/
     └── images/
-        └── profile.jpg     # ← ADD YOUR PHOTO HERE
+        └── profile.png     # ← ADD YOUR PHOTO HERE
 ```
 
 ---
@@ -103,9 +103,9 @@ The site supports **Dark / Light / System** themes via a cycle button in the nav
 
 ## Adding Your Profile Photo
 
-Drop your photo at `site/public/images/profile.jpg`. It appears on the `/history` page hero. The 🦈 placeholder shows until the file exists.
+Drop your photo at `site/public/images/profile.png`. It appears on the `/history` page hero. The 🦈 placeholder shows until the file exists.
 
-Recommended: square crop, minimum 600×600px, JPG or WebP.
+Recommended: square crop, minimum 600×600px, PNG.
 
 ---
 

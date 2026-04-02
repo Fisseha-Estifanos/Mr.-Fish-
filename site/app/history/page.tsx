@@ -64,10 +64,10 @@ export default function HistoryPage() {
               animate="visible"
               className="flex justify-center lg:justify-end"
             >
-              {/* Replace /public/images/profile.jpg with your actual photo */}
+              {/* Replace /public/images/profile.png with your actual photo */}
               <div className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-2xl overflow-hidden flex-shrink-0">
                 <img
-                  src="/images/profile.jpg"
+                  src="/images/profile.png"
                   alt="Fisseha Estifanos — Mr. Fish"
                   className="w-full h-full object-cover"
                   onError={(e) => {
@@ -76,7 +76,7 @@ export default function HistoryPage() {
                     if (fallback) fallback.style.display = "flex";
                   }}
                 />
-                {/* Fallback shown until you add your photo at public/images/profile.jpg */}
+                {/* Fallback shown until you add your photo at public/images/profile.png */}
                 <div
                   className="absolute inset-0 flex-col items-center justify-center gap-3"
                   style={{
@@ -94,7 +94,7 @@ export default function HistoryPage() {
                       Add photo →
                     </p>
                     <p className="text-xs mt-1" style={{ color: "var(--color-text-tertiary)", fontFamily: "JetBrains Mono, monospace" }}>
-                      public/images/profile.jpg
+                      public/images/profile.png
                     </p>
                   </div>
                 </div>

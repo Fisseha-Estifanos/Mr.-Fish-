@@ -382,7 +382,7 @@ Mark tasks done with `[x]`. Add notes inline with `<!-- note -->` where needed.
 - [x] **11B.2** ContactForm upgraded — real `fetch` POST to `/api/contact`, loading state, success screen with reset, inline error display
 
 - [x] **11B.3** Profile photo section on `/history` hero — 2-col layout desktop, photo right
-  - **Add your photo at `site/public/images/profile.jpg`** — shows branded 🦈 placeholder until then
+  - **Add your photo at `site/public/images/profile.png`** — shows branded 🦈 placeholder until then
 
 - [x] **11B.4** `/links` page (Linktree-style) — standalone shareable URL at `fish.pro.et/links`
   - Cards: Website, WhatsApp, Email, LinkedIn, GitHub, Twitter/X, Medium, Portfolio
