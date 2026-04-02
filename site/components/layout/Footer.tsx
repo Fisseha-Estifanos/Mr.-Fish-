@@ -86,6 +86,14 @@ export function Footer() {
             >
               {CONTACT_EMAIL}
             </a>
+            <div className="mt-6">
+              <img
+                src="/images/Mr. Fish logo.png"
+                alt="Mr. Fish logo"
+                className="h-16 w-auto object-contain"
+                style={{ opacity: 0.85 }}
+              />
+            </div>
           </div>
 
           {/* Navigation */}
