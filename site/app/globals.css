@@ -42,8 +42,9 @@
   --radius-btn: 0.5rem;
 }
 
-/* ── CSS custom properties (runtime) ── */
-:root {
+/* ── CSS custom properties — dark theme (default) ── */
+:root,
+[data-theme="dark"] {
   --color-bg: #0a0a0f;
   --color-surface: #111118;
   --color-surface-raised: #1a1a24;
@@ -60,6 +61,26 @@
   --color-error: #ef4444;
   --shadow-card-hover: 0 0 0 1px rgba(0, 212, 255, 0.3), 0 8px 32px rgba(0, 0, 0, 0.4);
   --shadow-btn-glow: 0 0 20px rgba(0, 212, 255, 0.3);
+}
+
+/* ── Light theme ── */
+[data-theme="light"] {
+  --color-bg: #f4f4f8;
+  --color-surface: #ffffff;
+  --color-surface-raised: #ebebf0;
+  --color-border: #d8d8e4;
+  --color-border-active: #0090b0;
+  --color-accent: #0090b0;
+  --color-accent-glow: rgba(0, 144, 176, 0.12);
+  --color-accent-secondary: #0369a1;
+  --color-text-primary: #0a0a0f;
+  --color-text-secondary: #44445a;
+  --color-text-tertiary: #888898;
+  --color-whatsapp: #128c7e;
+  --color-success: #16a34a;
+  --color-error: #dc2626;
+  --shadow-card-hover: 0 0 0 1px rgba(0, 144, 176, 0.25), 0 8px 32px rgba(0, 0, 0, 0.08);
+  --shadow-btn-glow: 0 0 20px rgba(0, 144, 176, 0.2);
 }
 
 /* ── Base styles ── */
@@ -226,6 +247,11 @@ body {
 /* ── Gradient accent ── */
 .gradient-accent {
   background: linear-gradient(135deg, #00d4ff 0%, #0ea5e9 50%, #7c3aed 100%);
+}
+
+/* ── Links page card hover ── */
+.links-card:hover {
+  background: var(--color-surface-raised) !important;
 }
 
 /* ── Card base ── */

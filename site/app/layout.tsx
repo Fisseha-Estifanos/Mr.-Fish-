@@ -4,6 +4,7 @@ import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { WhatsAppFAB } from "@/components/layout/WhatsAppFAB";
+import { ThemeProvider } from "@/lib/theme";
 import { Analytics } from "@vercel/analytics/next";
 import { SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/constants";
 
@@ -36,13 +37,28 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    creator: "@mrfish",
+    creator: "@fish0_16",
   },
   robots: {
     index: true,
     follow: true,
   },
 };
+
+// Inline script prevents flash of wrong theme before React hydrates
+const themeScript = `
+(function() {
+  try {
+    var t = localStorage.getItem('mrfish-theme') || 'dark';
+    var resolved = t === 'system'
+      ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+      : t;
+    document.documentElement.setAttribute('data-theme', resolved);
+  } catch(e) {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+})();
+`;
 
 export default function RootLayout({
   children,
@@ -52,9 +68,12 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      data-theme="dark"
       className={`${inter.variable} ${jetbrainsMono.variable} h-full`}
     >
       <head>
+        {/* No-flash theme script — runs before paint */}
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
         {/* Fontshare — Clash Display + Cabinet Grotesk */}
         <link rel="preconnect" href="https://api.fontshare.com" />
         <link
@@ -63,10 +82,12 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col antialiased" style={{ background: "var(--color-bg)", color: "var(--color-text-primary)" }}>
-        <Navbar />
-        <main className="flex-1">{children}</main>
-        <Footer />
-        <WhatsAppFAB />
+        <ThemeProvider>
+          <Navbar />
+          <main className="flex-1">{children}</main>
+          <Footer />
+          <WhatsAppFAB />
+        </ThemeProvider>
         <Analytics />
       </body>
     </html>

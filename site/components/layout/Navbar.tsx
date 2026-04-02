@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { X, Menu, MessageCircle } from "lucide-react";
 import { LinkedInIcon, GitHubIcon, XIcon, MediumIcon } from "@/components/ui/SocialIcons";
+import { ThemeToggle } from "@/components/ui/ThemeToggle";
 import { NAV_LINKS, SOCIAL, WHATSAPP_URL } from "@/lib/constants";
 
 const socialLinks = [
@@ -72,8 +73,10 @@ export function Navbar() {
             ))}
           </div>
 
-          {/* Desktop right: social icons + WhatsApp CTA */}
+          {/* Desktop right: theme toggle + social icons + WhatsApp CTA */}
           <div className="hidden lg:flex items-center gap-3">
+            <ThemeToggle />
+            <div className="w-px h-4 mx-1" style={{ background: "var(--color-border)" }} />
             {socialLinks.map(({ icon: Icon, href, label }) => (
               <a
                 key={label}
@@ -137,14 +140,17 @@ export function Navbar() {
           >
             Mr. Fish 🦈
           </span>
-          <button
-            onClick={() => setOpen(false)}
-            aria-label="Close menu"
-            style={{ color: "var(--color-text-primary)" }}
-            className="p-2"
-          >
-            <X size={22} />
-          </button>
+          <div className="flex items-center gap-2">
+            <ThemeToggle />
+            <button
+              onClick={() => setOpen(false)}
+              aria-label="Close menu"
+              style={{ color: "var(--color-text-primary)" }}
+              className="p-2"
+            >
+              <X size={22} />
+            </button>
+          </div>
         </div>
 
         {/* Nav links */}

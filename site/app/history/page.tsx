@@ -18,42 +18,89 @@ export default function HistoryPage() {
       {/* Page Hero */}
       <section className="pt-[120px] pb-16" style={{ background: "var(--color-surface)" }}>
         <div className="content-wrapper">
-          <motion.div variants={fadeUp} initial="hidden" animate="visible">
-            <SectionLabel>The Track Record</SectionLabel>
-            <h1
-              className="text-[clamp(2rem,5vw,3.5rem)] font-bold mb-4 max-w-3xl"
-              style={{ fontFamily: "Clash Display, sans-serif", color: "var(--color-text-primary)" }}
-            >
-              Built in the Deep End. Proven Across the Board.
-            </h1>
-            <p className="text-lg max-w-2xl mb-8" style={{ color: "var(--color-text-secondary)" }}>
-              Every engagement, every system, every result — rooted in years of real-world experience across data science, full-stack engineering, and strategic consulting. Not theory. Not slide decks. Track record.
-            </p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Left: text */}
+            <motion.div variants={fadeUp} initial="hidden" animate="visible">
+              <SectionLabel>The Track Record</SectionLabel>
+              <h1
+                className="text-[clamp(2rem,5vw,3.5rem)] font-bold mb-4"
+                style={{ fontFamily: "Clash Display, sans-serif", color: "var(--color-text-primary)" }}
+              >
+                Built in the Deep End. Proven Across the Board.
+              </h1>
+              <p className="text-lg mb-8" style={{ color: "var(--color-text-secondary)" }}>
+                Every engagement, every system, every result — rooted in years of real-world experience across data science, full-stack engineering, and strategic consulting. Not theory. Not slide decks. Track record.
+              </p>
 
-            {/* Social proof strip */}
-            <div className="flex flex-wrap items-center gap-6">
-              <a
-                href={SOCIAL.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm font-medium transition-all hover:opacity-90"
-                style={{ background: "var(--color-surface-raised)", border: "1px solid var(--color-border)", color: "var(--color-text-primary)" }}
-              >
-                <LinkedInIcon size={16} style={{ color: "#0a66c2" }} />
-                View Full LinkedIn Profile
-              </a>
-              <a
-                href={SOCIAL.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm font-medium transition-all hover:opacity-90"
-                style={{ background: "var(--color-surface-raised)", border: "1px solid var(--color-border)", color: "var(--color-text-primary)" }}
-              >
-                <GitHubIcon size={16} />
-                See the Code on GitHub
-              </a>
-            </div>
-          </motion.div>
+              {/* Social proof strip */}
+              <div className="flex flex-wrap items-center gap-4">
+                <a
+                  href={SOCIAL.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm font-medium transition-all hover:opacity-90"
+                  style={{ background: "var(--color-surface-raised)", border: "1px solid var(--color-border)", color: "var(--color-text-primary)" }}
+                >
+                  <LinkedInIcon size={16} style={{ color: "#0a66c2" }} />
+                  View LinkedIn
+                </a>
+                <a
+                  href={SOCIAL.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm font-medium transition-all hover:opacity-90"
+                  style={{ background: "var(--color-surface-raised)", border: "1px solid var(--color-border)", color: "var(--color-text-primary)" }}
+                >
+                  <GitHubIcon size={16} />
+                  See GitHub
+                </a>
+              </div>
+            </motion.div>
+
+            {/* Right: profile photo */}
+            <motion.div
+              variants={fadeUp}
+              initial="hidden"
+              animate="visible"
+              className="flex justify-center lg:justify-end"
+            >
+              {/* Replace /public/images/profile.jpg with your actual photo */}
+              <div className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-2xl overflow-hidden flex-shrink-0">
+                <img
+                  src="/images/profile.jpg"
+                  alt="Fisseha Estifanos — Mr. Fish"
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    (e.currentTarget as HTMLImageElement).style.display = "none";
+                    const fallback = e.currentTarget.nextElementSibling as HTMLElement | null;
+                    if (fallback) fallback.style.display = "flex";
+                  }}
+                />
+                {/* Fallback shown until you add your photo at public/images/profile.jpg */}
+                <div
+                  className="absolute inset-0 flex-col items-center justify-center gap-3"
+                  style={{
+                    display: "flex",
+                    background: "linear-gradient(135deg, var(--color-surface) 0%, var(--color-surface-raised) 100%)",
+                    border: "1px solid var(--color-border)",
+                  }}
+                >
+                  <span style={{ fontSize: "4rem", lineHeight: 1 }}>🦈</span>
+                  <div className="text-center px-4">
+                    <p className="font-bold text-sm" style={{ fontFamily: "Clash Display, sans-serif", color: "var(--color-text-primary)" }}>
+                      Mr. Fish
+                    </p>
+                    <p className="text-xs mt-0.5" style={{ color: "var(--color-accent)", fontFamily: "JetBrains Mono, monospace" }}>
+                      Add photo →
+                    </p>
+                    <p className="text-xs mt-1" style={{ color: "var(--color-text-tertiary)", fontFamily: "JetBrains Mono, monospace" }}>
+                      public/images/profile.jpg
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          </div>
         </div>
       </section>
 
