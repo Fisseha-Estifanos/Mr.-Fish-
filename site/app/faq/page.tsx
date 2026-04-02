@@ -6,7 +6,7 @@ import { faqs } from "@/data/faq";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "FAQ | Mr. Fish — Data Science & Full-Stack Consulting",
+  title: "FAQ",
   description:
     "Answers to the most common questions about working with Mr. Fish — from how Discovery Calls work to IP ownership, white-label consulting, and project timelines.",
   alternates: { canonical: `${SITE_URL}/faq` },

@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Mail, MessageCircle, Globe, ExternalLink } from "lucide-react";
+import { Mail, Globe, ExternalLink } from "lucide-react";
 import { LinkedInIcon, GitHubIcon, XIcon, MediumIcon, WhatsAppIcon } from "@/components/ui/SocialIcons";
 import { CONTACT_EMAIL, SOCIAL, WHATSAPP_URL, SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Links — Mr. Fish",
+  title: "Links",
   description: "All links for Mr. Fish — Data Scientist, Generative AI Engineer & Full-Stack Consultant.",
 };
 
