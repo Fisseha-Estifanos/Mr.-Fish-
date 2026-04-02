@@ -90,7 +90,7 @@ export function Footer() {
               <img
                 src="/images/Mr. Fish logo.png"
                 alt="Mr. Fish logo"
-                className="h-16 w-auto object-contain"
+                className="h-32 w-auto object-contain"
                 style={{ opacity: 0.85 }}
               />
             </div>
