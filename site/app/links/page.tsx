@@ -79,13 +79,14 @@ export default function LinksPage() {
       {/* Profile */}
       <div className="flex flex-col items-center gap-3 mb-10">
         <div
-          className="w-20 h-20 rounded-full flex items-center justify-center text-4xl"
-          style={{
-            background: "linear-gradient(135deg, var(--color-surface) 0%, var(--color-surface-raised) 100%)",
-            border: "2px solid var(--color-border)",
-          }}
+          className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0"
+          style={{ border: "2px solid var(--color-border)" }}
         >
-          🦈
+          <img
+            src="/images/profile.png"
+            alt="Mr. Fish — Fisseha Estifanos"
+            className="w-full h-full object-cover object-top"
+          />
         </div>
         <div className="text-center">
           <h1
