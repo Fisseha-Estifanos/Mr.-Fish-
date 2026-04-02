@@ -16,7 +16,7 @@ export function ServiceCard({ service, compact = false }: ServiceCardProps) {
       <div className="card p-6 flex flex-col gap-3 h-full">
         <div
           className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0"
-          style={{ background: "rgba(0,212,255,0.1)" }}
+          style={{ background: "var(--color-accent-tint)" }}
         >
           <Icon size={20} style={{ color: "var(--color-accent)" }} />
         </div>
@@ -36,7 +36,7 @@ export function ServiceCard({ service, compact = false }: ServiceCardProps) {
       <div className="flex items-start gap-4">
         <div
           className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
-          style={{ background: "rgba(0,212,255,0.1)" }}
+          style={{ background: "var(--color-accent-tint)" }}
         >
           <Icon size={24} style={{ color: "var(--color-accent)" }} />
         </div>

@@ -34,8 +34,8 @@ export function PageCTA({
           viewport={viewportOnce}
           className="rounded-2xl p-10 md:p-16 text-center max-w-3xl mx-auto"
           style={{
-            background: "rgba(0,212,255,0.04)",
-            border: "1px solid rgba(0,212,255,0.12)",
+            background: "var(--color-accent-glow-faint)",
+            border: "1px solid var(--color-accent-border-faint)",
           }}
         >
           <h2

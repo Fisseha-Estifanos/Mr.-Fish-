@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import { X, Menu, MessageCircle } from "lucide-react";
 import { LinkedInIcon, GitHubIcon, XIcon, MediumIcon } from "@/components/ui/SocialIcons";
 import { ThemeToggle } from "@/components/ui/ThemeToggle";
@@ -17,6 +18,7 @@ const socialLinks = [
 export function Navbar() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
@@ -35,12 +37,12 @@ export function Navbar() {
       <header
         className="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
         style={{
-          background: "rgba(10,10,15,0.85)",
+          background: "var(--color-nav-bg)",
           backdropFilter: "blur(16px)",
           WebkitBackdropFilter: "blur(16px)",
           borderBottom: scrolled
-            ? "1px solid rgba(30,30,46,0.9)"
-            : "1px solid rgba(30,30,46,0.5)",
+            ? "1px solid var(--color-nav-border)"
+            : "1px solid var(--color-nav-border-subtle)",
         }}
       >
         <nav className="content-wrapper flex items-center justify-between h-[72px] gap-8">
@@ -55,22 +57,34 @@ export function Navbar() {
 
           {/* Desktop nav links */}
           <div className="hidden lg:flex items-center gap-6">
-            {NAV_LINKS.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-sm font-medium transition-colors duration-150 hover:opacity-100"
-                style={{ color: "var(--color-text-secondary)", fontFamily: "Inter, sans-serif" }}
-                onMouseEnter={(e) => {
-                  (e.currentTarget as HTMLAnchorElement).style.color = "var(--color-text-primary)";
-                }}
-                onMouseLeave={(e) => {
-                  (e.currentTarget as HTMLAnchorElement).style.color = "var(--color-text-secondary)";
-                }}
-              >
-                {link.label}
-              </Link>
-            ))}
+            {NAV_LINKS.map((link) => {
+              const isActive = pathname === link.href;
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="relative text-sm font-medium transition-colors duration-150 pb-1"
+                  style={{
+                    color: isActive ? "var(--color-text-primary)" : "var(--color-text-secondary)",
+                    fontFamily: "Inter, sans-serif",
+                  }}
+                  onMouseEnter={(e) => {
+                    (e.currentTarget as HTMLAnchorElement).style.color = "var(--color-text-primary)";
+                  }}
+                  onMouseLeave={(e) => {
+                    (e.currentTarget as HTMLAnchorElement).style.color = isActive ? "var(--color-text-primary)" : "var(--color-text-secondary)";
+                  }}
+                >
+                  {link.label}
+                  {isActive && (
+                    <span
+                      className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full"
+                      style={{ background: "var(--color-accent)", opacity: 0.7 }}
+                    />
+                  )}
+                </Link>
+              );
+            })}
           </div>
 
           {/* Desktop right: theme toggle + social icons + WhatsApp CTA */}
@@ -125,7 +139,7 @@ export function Navbar() {
       <div
         className="lg:hidden fixed inset-0 z-[100] flex flex-col transition-opacity duration-300"
         style={{
-          background: "rgba(10,10,15,0.98)",
+          background: "var(--color-nav-bg)",
           backdropFilter: "blur(24px)",
           opacity: open ? 1 : 0,
           pointerEvents: open ? "auto" : "none",
@@ -155,21 +169,31 @@ export function Navbar() {
 
         {/* Nav links */}
         <nav className="flex flex-col gap-2 px-6 pt-8 flex-1">
-          {NAV_LINKS.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              onClick={() => setOpen(false)}
-              className="text-3xl font-bold py-3 border-b transition-colors duration-150"
-              style={{
-                fontFamily: "Clash Display, sans-serif",
-                color: "var(--color-text-primary)",
-                borderColor: "var(--color-border)",
-              }}
-            >
-              {link.label}
-            </Link>
-          ))}
+          {NAV_LINKS.map((link) => {
+            const isActive = pathname === link.href;
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                onClick={() => setOpen(false)}
+                className="flex items-center gap-3 text-3xl font-bold py-3 border-b transition-colors duration-150"
+                style={{
+                  fontFamily: "Clash Display, sans-serif",
+                  color: isActive ? "var(--color-text-primary)" : "var(--color-text-secondary)",
+                  borderColor: "var(--color-border)",
+                }}
+              >
+                <span
+                  className="w-1.5 h-1.5 rounded-full flex-shrink-0 transition-opacity duration-150"
+                  style={{
+                    background: "var(--color-accent)",
+                    opacity: isActive ? 0.8 : 0,
+                  }}
+                />
+                {link.label}
+              </Link>
+            );
+          })}
         </nav>
 
         {/* Mobile bottom: social icons + WhatsApp */}

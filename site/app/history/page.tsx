@@ -212,7 +212,7 @@ export default function HistoryPage() {
                         </div>
                         <span
                           className="text-xs px-2.5 py-1 rounded-full flex-shrink-0 lg:hidden"
-                          style={{ background: "rgba(0,212,255,0.1)", color: "var(--color-accent)", fontFamily: "JetBrains Mono, monospace" }}
+                          style={{ background: "var(--color-accent-tint)", color: "var(--color-accent)", fontFamily: "JetBrains Mono, monospace" }}
                         >
                           {entry.yearRange}
                         </span>

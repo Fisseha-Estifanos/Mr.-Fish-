@@ -117,7 +117,7 @@ export default function WorkWithMePage() {
                 style={{
                   background: "var(--color-surface)",
                   border: eng.featured ? "2px solid var(--color-accent)" : "1px solid var(--color-border)",
-                  boxShadow: eng.featured ? "0 0 40px rgba(0,212,255,0.08)" : "none",
+                  boxShadow: eng.featured ? "0 0 40px var(--color-accent-shadow)" : "none",
                 }}
               >
                 {/* Featured badge */}

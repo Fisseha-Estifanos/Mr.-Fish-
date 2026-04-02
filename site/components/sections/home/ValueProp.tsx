@@ -73,7 +73,7 @@ export function ValueProp() {
               >
                 <div
                   className="w-12 h-12 rounded-xl flex items-center justify-center"
-                  style={{ background: "rgba(0,212,255,0.1)" }}
+                  style={{ background: "var(--color-accent-tint)" }}
                 >
                   <Icon size={24} style={{ color: "var(--color-accent)" }} />
                 </div>

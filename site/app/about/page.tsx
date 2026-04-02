@@ -86,7 +86,7 @@ export default function AboutPage() {
             whileInView="visible"
             viewport={viewportOnce}
             className="mt-10 p-8 rounded-2xl"
-            style={{ background: "rgba(0,212,255,0.05)", border: "1px solid rgba(0,212,255,0.15)" }}
+            style={{ background: "var(--color-accent-glow-faint)", border: "1px solid var(--color-accent-border-faint)" }}
           >
             <p
               className="text-xs font-medium uppercase tracking-[0.12em] mb-3"
@@ -127,7 +127,7 @@ export default function AboutPage() {
                 <motion.div key={v.title} variants={staggerChild} className="card p-8 flex gap-5">
                   <div
                     className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
-                    style={{ background: "rgba(0,212,255,0.1)" }}
+                    style={{ background: "var(--color-accent-tint)" }}
                   >
                     <Icon size={22} style={{ color: "var(--color-accent)" }} />
                   </div>

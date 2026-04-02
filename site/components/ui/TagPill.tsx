@@ -8,9 +8,9 @@ interface TagPillProps {
 
 const variantStyles: Record<TagVariant, React.CSSProperties> = {
   tech: {
-    background: "rgba(0,212,255,0.08)",
-    border: "1px solid rgba(0,212,255,0.2)",
-    color: "#00d4ff",
+    background: "var(--color-accent-subtle)",
+    border: "1px solid var(--color-accent-border)",
+    color: "var(--color-accent)",
   },
   category: {
     background: "rgba(124,58,237,0.12)",

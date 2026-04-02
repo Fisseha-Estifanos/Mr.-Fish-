@@ -107,7 +107,7 @@ export default function LinksPage() {
       <div className="w-full max-w-md flex flex-col gap-3">
         {links.map(({ icon: Icon, label, description, href, external, accent, whatsapp }) => {
           const borderColor = accent
-            ? "rgba(0,212,255,0.4)"
+            ? "var(--color-accent-border-strong)"
             : whatsapp
             ? "rgba(37,211,102,0.3)"
             : "var(--color-border)";

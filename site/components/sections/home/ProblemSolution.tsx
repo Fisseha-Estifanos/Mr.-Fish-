@@ -117,7 +117,7 @@ export function ProblemSolution() {
           {/* Solution */}
           <div
             className="p-8 rounded-2xl flex flex-col justify-between gap-6"
-            style={{ background: "rgba(0,212,255,0.05)", border: "1px solid rgba(0,212,255,0.15)" }}
+            style={{ background: "var(--color-accent-glow-faint)", border: "1px solid var(--color-accent-border-faint)" }}
           >
             <div>
               <p

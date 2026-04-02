@@ -111,7 +111,7 @@ export default function BlogPage() {
                 <div className="flex items-center gap-3">
                   <div
                     className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0"
-                    style={{ background: "rgba(0,212,255,0.1)" }}
+                    style={{ background: "var(--color-accent-tint)" }}
                   >
                     <Icon size={18} style={{ color: "var(--color-accent)" }} />
                   </div>

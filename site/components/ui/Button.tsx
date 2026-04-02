@@ -32,10 +32,10 @@ function getStyles(variant: Variant) {
   const base = "inline-flex items-center justify-center gap-2 font-medium rounded-lg transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed";
 
   if (variant === "primary") {
-    return `${base} text-[#0a0a0f] gradient-accent hover:brightness-110 focus-visible:ring-[#00d4ff]`;
+    return `${base} text-[#0a0a0f] gradient-accent hover:brightness-110 btn-ring-accent`;
   }
   if (variant === "secondary") {
-    return `${base} bg-transparent hover:bg-[rgba(0,212,255,0.08)] focus-visible:ring-[#00d4ff]`;
+    return `${base} bg-transparent btn-hover-accent btn-ring-accent`;
   }
   // ghost
   return `${base} bg-transparent hover:underline`;
