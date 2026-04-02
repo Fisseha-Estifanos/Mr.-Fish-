@@ -93,7 +93,7 @@ export default function LinksPage() {
       {/* Profile */}
       <div className="flex flex-col items-center gap-3 mb-10">
         <div
-          className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0"
+          className="w-40 h-60 rounded-full overflow-hidden flex-shrink-0"
           style={{ border: "2px solid var(--color-border)" }}
         >
           <img

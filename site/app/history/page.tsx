@@ -65,7 +65,7 @@ export default function HistoryPage() {
               className="flex justify-center lg:justify-end"
             >
               {/* Replace /public/images/profile.png with your actual photo */}
-              <div className="relative w-64 h-64 lg:w-100 lg:h-100 rounded-2xl overflow-hidden flex-shrink-0">
+              <div className="relative w-64 h-64 lg:w-80 lg:h-99 rounded-2xl overflow-hidden flex-shrink-0">
                 <img
                   src="/images/profile.png"
                   alt="Fisseha Estifanos — Mr. Fish"
