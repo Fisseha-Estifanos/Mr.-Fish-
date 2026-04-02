@@ -2,7 +2,12 @@
 
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
-import { LinkedInIcon, GitHubIcon, XIcon, MediumIcon } from "@/components/ui/SocialIcons";
+import {
+  LinkedInIcon,
+  GitHubIcon,
+  XIcon,
+  MediumIcon,
+} from "@/components/ui/SocialIcons";
 import { Button } from "@/components/ui/Button";
 import { heroStagger, staggerChild, viewportOnce } from "@/lib/animations";
 import { SOCIAL, CALENDLY_URL } from "@/lib/constants";
@@ -21,7 +26,10 @@ export function Hero() {
       style={{ background: "var(--color-bg)" }}
     >
       {/* Radial glow */}
-      <div className="hero-glow absolute inset-0 pointer-events-none" aria-hidden />
+      <div
+        className="hero-glow absolute inset-0 pointer-events-none"
+        aria-hidden
+      />
 
       {/* Subtle grid pattern */}
       <div
@@ -45,22 +53,29 @@ export function Hero() {
           <motion.p
             variants={staggerChild}
             className="text-xs font-medium uppercase tracking-[0.12em]"
-            style={{ fontFamily: "JetBrains Mono, monospace", color: "var(--color-accent)" }}
+            style={{
+              fontFamily: "JetBrains Mono, monospace",
+              color: "var(--color-accent)",
+            }}
           >
-            Apex Data Science & Full-Stack Consulting
+            Apex Data Science and Analytics & Full-Stack Consulting
           </motion.p>
 
           {/* H1 */}
           <motion.h1
             variants={staggerChild}
             className="font-bold leading-[1.05] text-[clamp(2.5rem,6vw,4.5rem)]"
-            style={{ fontFamily: "Clash Display, sans-serif", color: "var(--color-text-primary)" }}
+            style={{
+              fontFamily: "Clash Display, sans-serif",
+              color: "var(--color-text-primary)",
+            }}
           >
             The Apex Tech Partner
             <br />
             <span
               style={{
-                background: "linear-gradient(135deg, #00d4ff 0%, #0ea5e9 50%, #7c3aed 100%)",
+                background:
+                  "linear-gradient(135deg, #00d4ff 0%, #0ea5e9 50%, #7c3aed 100%)",
                 WebkitBackgroundClip: "text",
                 backgroundClip: "text",
                 color: "transparent",
@@ -75,9 +90,13 @@ export function Hero() {
           <motion.p
             variants={staggerChild}
             className="text-xl font-semibold"
-            style={{ fontFamily: "Cabinet Grotesk, sans-serif", color: "var(--color-text-secondary)" }}
+            style={{
+              fontFamily: "Cabinet Grotesk, sans-serif",
+              color: "var(--color-text-secondary)",
+            }}
           >
-            Full-Stack Engineering. Advanced Data Science. One Expert.
+            Full-Stack Engineering. Advanced Data Science & Analytics
+            Consulting. One Expert.
             <br className="hidden sm:block" />
             Zero Hand-Offs. Zero Excuses.
           </motion.p>
@@ -88,19 +107,30 @@ export function Hero() {
             className="text-base leading-relaxed max-w-2xl"
             style={{ color: "var(--color-text-secondary)" }}
           >
-            Most companies are sitting on a goldmine of untapped data and stalled engineering
-            potential. The problem isn&apos;t the technology — it&apos;s the gap between what your
-            systems produce and what your business actually needs. Mr. Fish bridges that gap.
+            Most companies are sitting on a goldmine of untapped data and
+            stalled engineering potential. The problem isn&apos;t the technology
+            — it&apos;s the gap between what your systems produce and what your
+            business actually needs. Mr. Fish bridges that gap.
           </motion.p>
 
           {/* CTAs */}
-          <motion.div variants={staggerChild} className="flex flex-col sm:flex-row items-center gap-4 mt-2">
+          <motion.div
+            variants={staggerChild}
+            className="flex flex-col sm:flex-row items-center gap-4 mt-2"
+          >
             <Button href={CALENDLY_URL} external size="lg">
               Book a Free 30-Minute Strategy Call
             </Button>
-            <Button href="/services" variant="ghost" size="lg" className="group">
+            <Button
+              href="/services"
+              variant="ghost"
+              size="lg"
+              className="group"
+            >
               Explore What I Build
-              <span className="transition-transform duration-150 group-hover:translate-x-1">→</span>
+              <span className="transition-transform duration-150 group-hover:translate-x-1">
+                →
+              </span>
             </Button>
           </motion.div>
 
@@ -110,11 +140,15 @@ export function Hero() {
             className="text-xs"
             style={{ color: "var(--color-text-tertiary)" }}
           >
-            Trusted by founders, CTOs, and agencies across North America, Europe & Asia-Pacific.
+            Trusted by founders, CTOs, and agencies across North America, Europe
+            & Asia-Pacific.
           </motion.p>
 
           {/* Social icons */}
-          <motion.div variants={staggerChild} className="flex items-center gap-5 mt-2">
+          <motion.div
+            variants={staggerChild}
+            className="flex items-center gap-5 mt-2"
+          >
             {socialLinks.map(({ icon: Icon, href, label }) => (
               <a
                 key={label}
@@ -136,7 +170,10 @@ export function Hero() {
           className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 animate-scroll-bounce"
           aria-hidden
         >
-          <ArrowDown size={18} style={{ color: "var(--color-text-tertiary)" }} />
+          <ArrowDown
+            size={18}
+            style={{ color: "var(--color-text-tertiary)" }}
+          />
         </div>
       </div>
     </section>
