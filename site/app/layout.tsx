@@ -69,6 +69,7 @@ export default function RootLayout({
     <html
       lang="en"
       data-theme="dark"
+      data-scroll-behavior="smooth"
       className={`${inter.variable} ${jetbrainsMono.variable} h-full`}
     >
       <head>
