@@ -14,37 +14,37 @@ const socialPlatforms = [
     icon: LinkedInIcon,
     href: SOCIAL.linkedin,
     label: "LinkedIn",
-    description: "Work history, thought leadership, client case studies",
+    color: "#0A66C2",
   },
   {
     icon: GitHubIcon,
     href: SOCIAL.github,
     label: "GitHub",
-    description: "Open source work, code samples, public repositories",
+    color: "var(--color-text-secondary)",
   },
   {
     icon: XIcon,
     href: SOCIAL.twitter,
     label: "Twitter / X",
-    description: "Data science takes, industry insights, quick threads",
+    color: "var(--color-text-secondary)",
   },
   {
     icon: MediumIcon,
     href: SOCIAL.medium,
     label: "Medium",
-    description: "Long-form writing on data science, AI, and engineering",
+    color: "var(--color-text-secondary)",
   },
   {
     icon: WhatsAppIcon,
     href: SOCIAL.whatsapp,
     label: "WhatsApp",
-    description: "Direct message — fastest response guaranteed",
+    color: "#25D366",
   },
   {
     icon: Globe,
     href: "/links",
     label: "All Links",
-    description: "One page with every link and contact method",
+    color: "var(--color-accent)",
   },
 ];
 
@@ -126,7 +126,7 @@ export function Footer() {
               Connect & Follow
             </p>
             <ul className="flex flex-col gap-3">
-              {socialPlatforms.map(({ icon: Icon, href, label }) => (
+              {socialPlatforms.map(({ icon: Icon, href, label, color }) => (
                 <li key={label}>
                   <a
                     href={href}
@@ -136,7 +136,7 @@ export function Footer() {
                     style={{ color: "var(--color-text-secondary)" }}
                     aria-label={label}
                   >
-                    <Icon size={16} className="flex-shrink-0" />
+                    <Icon size={16} className="flex-shrink-0" style={{ color }} />
                     <span className="group-hover:underline">{label}</span>
                   </a>
                 </li>

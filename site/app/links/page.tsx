@@ -6,7 +6,7 @@ import { CONTACT_EMAIL, SOCIAL, WHATSAPP_URL, SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Links",
-  description: "All links for Mr. Fish — Data Scientist, Generative AI Engineer & Full-Stack Consultant.",
+  description: "All links for Mr. Fish — Advanced Data Science and Analytics · Generative AI · Full-Stack Consultant.",
 };
 
 const links = [
@@ -16,7 +16,8 @@ const links = [
     description: "Full portfolio & consulting services",
     href: SITE_URL,
     external: true,
-    accent: true,
+    color: "var(--color-accent)",
+    borderColor: "var(--color-accent-border-strong)",
   },
   {
     icon: WhatsAppIcon,
@@ -24,7 +25,8 @@ const links = [
     description: "Fastest way to reach me",
     href: WHATSAPP_URL,
     external: true,
-    whatsapp: true,
+    color: "#25D366",
+    borderColor: "rgba(37,211,102,0.3)",
   },
   {
     icon: Mail,
@@ -32,6 +34,8 @@ const links = [
     description: CONTACT_EMAIL,
     href: `mailto:${CONTACT_EMAIL}`,
     external: false,
+    color: "#EA4335",
+    borderColor: "rgba(234,67,53,0.2)",
   },
   {
     icon: LinkedInIcon,
@@ -39,6 +43,8 @@ const links = [
     description: "Work history & professional updates",
     href: SOCIAL.linkedin,
     external: true,
+    color: "#0A66C2",
+    borderColor: "rgba(10,102,194,0.25)",
   },
   {
     icon: GitHubIcon,
@@ -46,6 +52,8 @@ const links = [
     description: "Open source code & projects",
     href: SOCIAL.github,
     external: true,
+    color: "var(--color-text-primary)",
+    borderColor: "var(--color-border)",
   },
   {
     icon: XIcon,
@@ -53,6 +61,8 @@ const links = [
     description: "@fish0_16 — AI & data science takes",
     href: SOCIAL.twitter,
     external: true,
+    color: "var(--color-text-primary)",
+    borderColor: "var(--color-border)",
   },
   {
     icon: MediumIcon,
@@ -60,6 +70,8 @@ const links = [
     description: "Long-form writing on AI & engineering",
     href: SOCIAL.medium,
     external: true,
+    color: "var(--color-text-primary)",
+    borderColor: "var(--color-border)",
   },
   {
     icon: Globe,
@@ -67,6 +79,8 @@ const links = [
     description: "Earlier project showcase",
     href: SOCIAL.portfolio,
     external: true,
+    color: "var(--color-accent)",
+    borderColor: "var(--color-accent-border)",
   },
 ];
 
@@ -96,7 +110,7 @@ export default function LinksPage() {
             Mr. Fish
           </h1>
           <p className="text-sm mt-1" style={{ color: "var(--color-text-secondary)" }}>
-            Data Scientist · Generative AI Engineer · Full-Stack Consultant
+            Advanced Data Science and Analytics · Generative AI · Full-Stack Consultant
           </p>
           <p className="text-xs mt-1" style={{ color: "var(--color-text-tertiary)", fontFamily: "JetBrains Mono, monospace" }}>
             Addis Ababa, Ethiopia · Global
@@ -106,18 +120,7 @@ export default function LinksPage() {
 
       {/* Links */}
       <div className="w-full max-w-md flex flex-col gap-3">
-        {links.map(({ icon: Icon, label, description, href, external, accent, whatsapp }) => {
-          const borderColor = accent
-            ? "var(--color-accent-border-strong)"
-            : whatsapp
-            ? "rgba(37,211,102,0.3)"
-            : "var(--color-border)";
-          const iconColor = accent
-            ? "var(--color-accent)"
-            : whatsapp
-            ? "var(--color-whatsapp)"
-            : "var(--color-text-secondary)";
-
+        {links.map(({ icon: Icon, label, description, href, external, color, borderColor }) => {
           const inner = (
             <div
               className="links-card flex items-center gap-4 px-5 py-4 rounded-xl transition-all duration-150"
@@ -126,7 +129,7 @@ export default function LinksPage() {
                 border: `1px solid ${borderColor}`,
               }}
             >
-              <Icon size={20} style={{ color: iconColor, flexShrink: 0 }} />
+              <Icon size={20} style={{ color, flexShrink: 0 }} />
               <div className="flex-1 min-w-0">
                 <p className="text-sm font-semibold" style={{ color: "var(--color-text-primary)" }}>
                   {label}
