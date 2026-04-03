@@ -86,7 +86,13 @@ export function Footer() {
             >
               {CONTACT_EMAIL}
             </a>
-            <div className="mt-6">
+            <div className="mt-6 flex items-center gap-3">
+              <img
+                src="/images/Ethiopian flag.png"
+                alt="Ethiopian flag"
+                className="h-32 w-auto object-contain"
+                style={{ opacity: 0.85 }}
+              />
               <img
                 src="/images/Mr. Fish logo.png"
                 alt="Mr. Fish logo"
@@ -144,7 +150,11 @@ export function Footer() {
                     style={{ color: "var(--color-text-secondary)" }}
                     aria-label={label}
                   >
-                    <Icon size={16} className="flex-shrink-0" style={{ color }} />
+                    <Icon
+                      size={16}
+                      className="flex-shrink-0"
+                      style={{ color }}
+                    />
                     <span className="group-hover:underline">{label}</span>
                   </a>
                 </li>
