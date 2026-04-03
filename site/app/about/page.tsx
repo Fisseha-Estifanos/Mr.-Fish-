@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import { Eye, Target, TrendingUp, Shield } from "lucide-react";
 import { SectionLabel } from "@/components/ui/SectionLabel";
-import { Button } from "@/components/ui/Button";
 import { PageCTA } from "@/components/sections/shared/PageCTA";
 import { fadeUp, staggerContainer, staggerChild, viewportOnce } from "@/lib/animations";
 
@@ -53,7 +52,7 @@ export default function AboutPage() {
               animate="visible"
               className="flex justify-center lg:justify-end"
             >
-              <div className="relative w-64 h-72 lg:w-80 lg:h-96 rounded-2xl overflow-hidden flex-shrink-0">
+              <div className="relative w-80 h-96 rounded-2xl overflow-hidden flex-shrink-0">
                 <img
                   src="/images/profile.png"
                   alt="Fisseha Estifanos — Mr. Fish"
