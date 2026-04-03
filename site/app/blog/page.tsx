@@ -1,9 +1,82 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
-import { Database, Layers, Briefcase, Globe } from "lucide-react";
+import { Database, Layers, Briefcase, Globe, CheckCircle, AlertCircle } from "lucide-react";
 import { SectionLabel } from "@/components/ui/SectionLabel";
 import { fadeUp, staggerContainer, staggerChild, viewportOnce } from "@/lib/animations";
+
+function NotifyForm() {
+  const [email, setEmail] = useState("");
+  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+  const [errorMsg, setErrorMsg] = useState("");
+
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setStatus("loading");
+    setErrorMsg("");
+    try {
+      const res = await fetch("/api/blog-notify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+      const json = await res.json();
+      if (!res.ok) {
+        setErrorMsg(json.error ?? "Something went wrong.");
+        setStatus("error");
+      } else {
+        setStatus("success");
+        setEmail("");
+      }
+    } catch {
+      setErrorMsg("Network error. Please try again.");
+      setStatus("error");
+    }
+  }
+
+  if (status === "success") {
+    return (
+      <div className="flex items-center gap-2 text-sm px-5 py-3.5 rounded-xl mt-4" style={{ background: "var(--color-surface)", border: "1px solid var(--color-border)", color: "var(--color-success)" }}>
+        <CheckCircle size={16} />
+        You&apos;re on the list — I&apos;ll notify you when the blog launches.
+      </div>
+    );
+  }
+
+  return (
+    <form onSubmit={handleSubmit} className="flex flex-col gap-3 w-full max-w-md mt-4">
+      <div className="flex flex-col sm:flex-row gap-3">
+        <input
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder="your@email.com"
+          required
+          className="flex-1 rounded-lg px-4 py-3.5 text-sm"
+          style={{
+            background: "var(--color-surface)",
+            border: "1px solid var(--color-border)",
+            color: "var(--color-text-primary)",
+          }}
+        />
+        <button
+          type="submit"
+          disabled={status === "loading"}
+          className="px-6 py-3.5 rounded-lg text-sm font-medium gradient-accent text-[#0a0a0f] hover:brightness-110 transition-all whitespace-nowrap disabled:opacity-60 disabled:cursor-not-allowed"
+        >
+          {status === "loading" ? "Saving…" : "Notify Me"}
+        </button>
+      </div>
+      {status === "error" && (
+        <div className="flex items-center gap-2 text-sm px-4 py-3 rounded-lg" style={{ background: "rgba(239,68,68,0.08)", color: "var(--color-error)" }}>
+          <AlertCircle size={16} />
+          {errorMsg}
+        </div>
+      )}
+    </form>
+  );
+}
 
 const clusters = [
   {
@@ -60,24 +133,8 @@ export default function BlogPage() {
             Practical, no-fluff content for founders, CTOs, and agency leaders navigating complex technical decisions. Launching soon.
           </p>
 
-          {/* Email capture */}
-          <div className="flex flex-col sm:flex-row gap-3 w-full max-w-md mt-4">
-            <input
-              type="email"
-              placeholder="your@email.com"
-              className="flex-1 rounded-lg px-4 py-3.5 text-sm"
-              style={{
-                background: "var(--color-surface)",
-                border: "1px solid var(--color-border)",
-                color: "var(--color-text-primary)",
-              }}
-            />
-            <button
-              className="px-6 py-3.5 rounded-lg text-sm font-medium gradient-accent text-[#0a0a0f] hover:brightness-110 transition-all whitespace-nowrap"
-            >
-              Notify Me
-            </button>
-          </div>
+          <NotifyForm />
+
           <p className="text-xs" style={{ color: "var(--color-text-tertiary)" }}>
             No spam. Just high-signal articles when they drop.
           </p>
