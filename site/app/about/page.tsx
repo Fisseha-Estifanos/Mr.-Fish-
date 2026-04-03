@@ -52,7 +52,7 @@ export default function AboutPage() {
               animate="visible"
               className="flex justify-center lg:justify-end"
             >
-              <div className="relative w-80 h-96 rounded-2xl overflow-hidden flex-shrink-0">
+              <div className="relative w-92 h-150 rounded-2xl overflow-hidden flex-shrink-0">
                 <img
                   src="/images/profile.png"
                   alt="Fisseha Estifanos — Mr. Fish"
