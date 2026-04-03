@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Globe } from "lucide-react";
 import {
   LinkedInIcon,
@@ -88,29 +87,23 @@ export function Footer() {
               {CONTACT_EMAIL}
             </a>
             <div className="mt-6 flex items-center gap-3">
-              <Image
+              <img
                 src="/images/Ethiopian flag.png"
                 alt="Ethiopian flag"
-                height={0}
-                width={0}
-                className="object-contain"
-                style={{ height: "8rem", width: "auto", opacity: 0.85 }}
+                className="h-32 w-auto object-contain"
+                style={{ opacity: 0.85 }}
               />
-              <Image
+              <img
                 src="/images/Mr. Fish logo Dark Theme.png"
                 alt="Mr. Fish logo"
-                height={0}
-                width={0}
-                className="theme-logo-dark object-contain"
-                style={{ height: "8rem", width: "auto", opacity: 0.85 }}
+                className="theme-logo-dark h-32 w-auto object-contain"
+                style={{ opacity: 0.85 }}
               />
-              <Image
+              <img
                 src="/images/Mr. Fish logo Light Theme.png"
                 alt="Mr. Fish logo"
-                height={0}
-                width={0}
-                className="theme-logo-light object-contain"
-                style={{ height: "8rem", width: "auto", opacity: 0.85 }}
+                className="theme-logo-light h-32 w-auto object-contain"
+                style={{ opacity: 0.85 }}
               />
             </div>
           </div>
