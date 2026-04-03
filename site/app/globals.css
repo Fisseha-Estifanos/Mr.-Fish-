@@ -277,6 +277,10 @@ body {
   --tw-ring-color: var(--color-accent);
 }
 
+/* ── Theme-specific image visibility ── */
+[data-theme="dark"] .theme-logo-light { display: none; }
+[data-theme="light"] .theme-logo-dark { display: none; }
+
 /* ── Links page card hover ── */
 .links-card:hover {
   background: var(--color-surface-raised) !important;

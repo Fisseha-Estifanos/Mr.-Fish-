@@ -94,9 +94,15 @@ export function Footer() {
                 style={{ opacity: 0.85 }}
               />
               <img
-                src="/images/Mr. Fish logo.png"
+                src="/images/Mr. Fish logo Dark Theme.png"
                 alt="Mr. Fish logo"
-                className="h-32 w-auto object-contain"
+                className="theme-logo-dark h-32 w-auto object-contain"
+                style={{ opacity: 0.85 }}
+              />
+              <img
+                src="/images/Mr. Fish logo Light Theme.png"
+                alt="Mr. Fish logo"
+                className="theme-logo-light h-32 w-auto object-contain"
                 style={{ opacity: 0.85 }}
               />
             </div>
