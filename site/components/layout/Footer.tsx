@@ -86,24 +86,24 @@ export function Footer() {
             >
               {CONTACT_EMAIL}
             </a>
-            <div className="mt-6 flex items-center gap-3">
+            <div className="mt-6 flex flex-wrap items-center gap-3">
               <img
                 src="/images/Ethiopian flag.png"
                 alt="Ethiopian flag"
-                className="h-32 w-auto object-contain"
-                style={{ opacity: 0.85 }}
+                className="h-16 sm:h-24 md:h-32 w-auto object-contain flex-shrink-0"
+                style={{ opacity: 0.85, maxWidth: "45%" }}
               />
               <img
                 src="/images/Mr. Fish logo Dark Theme.png"
                 alt="Mr. Fish logo"
-                className="theme-logo-dark h-32 w-auto object-contain"
-                style={{ opacity: 0.85 }}
+                className="theme-logo-dark h-16 sm:h-24 md:h-32 w-auto object-contain flex-shrink-0"
+                style={{ opacity: 0.85, maxWidth: "45%" }}
               />
               <img
                 src="/images/Mr. Fish logo Light Theme.png"
                 alt="Mr. Fish logo"
-                className="theme-logo-light h-32 w-auto object-contain"
-                style={{ opacity: 0.85 }}
+                className="theme-logo-light h-16 sm:h-24 md:h-32 w-auto object-contain flex-shrink-0"
+                style={{ opacity: 0.85, maxWidth: "45%" }}
               />
             </div>
           </div>
