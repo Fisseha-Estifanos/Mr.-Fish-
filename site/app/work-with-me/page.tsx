@@ -84,18 +84,72 @@ export default function WorkWithMePage() {
       {/* Hero */}
       <section className="pt-[120px] pb-16" style={{ background: "var(--color-surface)" }}>
         <div className="content-wrapper">
-          <motion.div variants={fadeUp} initial="hidden" animate="visible" className="max-w-3xl">
-            <SectionLabel>Engagement Models</SectionLabel>
-            <h1
-              className="text-[clamp(2rem,5vw,3.5rem)] font-bold mb-4"
-              style={{ fontFamily: "Clash Display, sans-serif", color: "var(--color-text-primary)" }}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <motion.div variants={fadeUp} initial="hidden" animate="visible">
+              <SectionLabel>Engagement Models</SectionLabel>
+              <h1
+                className="text-[clamp(2rem,5vw,3.5rem)] font-bold mb-4"
+                style={{ fontFamily: "Clash Display, sans-serif", color: "var(--color-text-primary)" }}
+              >
+                Serious Expertise, Structured for Your Stage.
+              </h1>
+              <p className="text-lg" style={{ color: "var(--color-text-secondary)" }}>
+                I don&apos;t believe in one-size-fits-all pricing. Every engagement is scoped individually. Below are the four primary ways we can work together.
+              </p>
+            </motion.div>
+
+            <motion.div
+              variants={fadeUp}
+              initial="hidden"
+              animate="visible"
+              className="flex justify-center lg:justify-end"
             >
-              Serious Expertise, Structured for Your Stage.
-            </h1>
-            <p className="text-lg" style={{ color: "var(--color-text-secondary)" }}>
-              I don&apos;t believe in one-size-fits-all pricing. Every engagement is scoped individually. Below are the four primary ways we can work together.
-            </p>
-          </motion.div>
+              <div
+                className="w-full max-w-sm rounded-2xl p-7 flex-shrink-0"
+                style={{ background: "var(--color-surface-raised)", border: "1px solid var(--color-border)" }}
+              >
+                <p
+                  className="text-xs font-medium uppercase tracking-[0.12em] mb-6"
+                  style={{ fontFamily: "JetBrains Mono, monospace", color: "var(--color-text-tertiary)" }}
+                >
+                  How We Work Together
+                </p>
+                <div className="flex flex-col gap-3">
+                  {[
+                    { step: "01", label: "Paid Discovery", sub: "Clarity before commitment" },
+                    { step: "02", label: "Project Engagement", sub: "Defined scope, flat rate" },
+                    { step: "03", label: "Fractional CTO", sub: "Ongoing strategic leadership", featured: true },
+                    { step: "04", label: "Equity Hybrid", sub: "Selective partnership model" },
+                  ].map(({ step, label, sub, featured }) => (
+                    <div
+                      key={step}
+                      className="flex items-center gap-4 px-4 py-3 rounded-xl"
+                      style={{
+                        background: featured ? "var(--color-accent-tint)" : "var(--color-surface)",
+                        border: `1px solid ${featured ? "var(--color-accent-border)" : "var(--color-border)"}`,
+                      }}
+                    >
+                      <span
+                        className="text-xs font-bold flex-shrink-0"
+                        style={{ fontFamily: "JetBrains Mono, monospace", color: featured ? "var(--color-accent)" : "var(--color-text-tertiary)" }}
+                      >
+                        {step}
+                      </span>
+                      <div className="flex-1 min-w-0">
+                        <p className="text-sm font-semibold" style={{ color: featured ? "var(--color-text-primary)" : "var(--color-text-secondary)" }}>
+                          {label}
+                        </p>
+                        <p className="text-xs mt-0.5" style={{ color: "var(--color-text-tertiary)" }}>{sub}</p>
+                      </div>
+                      {featured && (
+                        <span className="text-xs flex-shrink-0" style={{ color: "var(--color-accent)" }}>★</span>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </motion.div>
+          </div>
         </div>
       </section>
 

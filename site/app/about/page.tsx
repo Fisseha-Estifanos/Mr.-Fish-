@@ -36,15 +36,43 @@ export default function AboutPage() {
       {/* Hero */}
       <section className="pt-[120px] pb-16" style={{ background: "var(--color-surface)" }}>
         <div className="content-wrapper">
-          <motion.div variants={fadeUp} initial="hidden" animate="visible" className="max-w-3xl">
-            <SectionLabel>The Consultant Behind the Brand</SectionLabel>
-            <h1
-              className="text-[clamp(2rem,5vw,3.5rem)] font-bold mb-6"
-              style={{ fontFamily: "Clash Display, sans-serif", color: "var(--color-text-primary)" }}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <motion.div variants={fadeUp} initial="hidden" animate="visible">
+              <SectionLabel>The Consultant Behind the Brand</SectionLabel>
+              <h1
+                className="text-[clamp(2rem,5vw,3.5rem)] font-bold mb-6"
+                style={{ fontFamily: "Clash Display, sans-serif", color: "var(--color-text-primary)" }}
+              >
+                Why &ldquo;Mr. Fish&rdquo;? Because in a Sea of Average, You Need an Apex Partner.
+              </h1>
+            </motion.div>
+
+            <motion.div
+              variants={fadeUp}
+              initial="hidden"
+              animate="visible"
+              className="flex justify-center lg:justify-end"
             >
-              Why &ldquo;Mr. Fish&rdquo;? Because in a Sea of Average, You Need an Apex Partner.
-            </h1>
-          </motion.div>
+              <div className="relative w-64 h-72 lg:w-80 lg:h-96 rounded-2xl overflow-hidden flex-shrink-0">
+                <img
+                  src="/images/profile.png"
+                  alt="Fisseha Estifanos — Mr. Fish"
+                  className="w-full h-full object-cover object-top"
+                  onError={(e) => {
+                    (e.currentTarget as HTMLImageElement).style.display = "none";
+                    const fallback = e.currentTarget.nextElementSibling as HTMLElement | null;
+                    if (fallback) fallback.style.display = "flex";
+                  }}
+                />
+                <div
+                  className="absolute inset-0 flex-col items-center justify-center gap-3"
+                  style={{ display: "none", background: "linear-gradient(135deg, var(--color-surface) 0%, var(--color-surface-raised) 100%)", border: "1px solid var(--color-border)" }}
+                >
+                  <span style={{ fontSize: "4rem", lineHeight: 1 }}>🦈</span>
+                </div>
+              </div>
+            </motion.div>
+          </div>
         </div>
       </section>
 

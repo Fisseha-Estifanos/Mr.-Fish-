@@ -57,46 +57,56 @@ export default function HistoryPage() {
               </div>
             </motion.div>
 
-            {/* Right: profile photo */}
+            {/* Right: timeline illustration */}
             <motion.div
               variants={fadeUp}
               initial="hidden"
               animate="visible"
               className="flex justify-center lg:justify-end"
             >
-              {/* Replace /public/images/profile.png with your actual photo */}
-              <div className="relative w-64 h-64 lg:w-80 lg:h-99 rounded-2xl overflow-hidden flex-shrink-0">
-                <img
-                  src="/images/profile.png"
-                  alt="Fisseha Estifanos — Mr. Fish"
-                  className="w-full h-full object-cover object-top"
-                  onError={(e) => {
-                    (e.currentTarget as HTMLImageElement).style.display = "none";
-                    const fallback = e.currentTarget.nextElementSibling as HTMLElement | null;
-                    if (fallback) fallback.style.display = "flex";
-                  }}
-                />
-                {/* Fallback — hidden by default, shown only if image fails to load */}
-                <div
-                  className="absolute inset-0 flex-col items-center justify-center gap-3"
-                  style={{
-                    display: "none",
-                    background: "linear-gradient(135deg, var(--color-surface) 0%, var(--color-surface-raised) 100%)",
-                    border: "1px solid var(--color-border)",
-                  }}
+              <div
+                className="w-full max-w-sm rounded-2xl p-7 flex-shrink-0"
+                style={{ background: "var(--color-surface-raised)", border: "1px solid var(--color-border)" }}
+              >
+                <p
+                  className="text-xs font-medium uppercase tracking-[0.12em] mb-6"
+                  style={{ fontFamily: "JetBrains Mono, monospace", color: "var(--color-text-tertiary)" }}
                 >
-                  <span style={{ fontSize: "4rem", lineHeight: 1 }}>🦈</span>
-                  <div className="text-center px-4">
-                    <p className="font-bold text-sm" style={{ fontFamily: "Clash Display, sans-serif", color: "var(--color-text-primary)" }}>
-                      Mr. Fish
-                    </p>
-                    <p className="text-xs mt-0.5" style={{ color: "var(--color-accent)", fontFamily: "JetBrains Mono, monospace" }}>
-                      Add photo →
-                    </p>
-                    <p className="text-xs mt-1" style={{ color: "var(--color-text-tertiary)", fontFamily: "JetBrains Mono, monospace" }}>
-                      public/images/profile.png
-                    </p>
-                  </div>
+                  Career Timeline
+                </p>
+                <div className="relative flex flex-col gap-5">
+                  {/* Vertical connector line */}
+                  <div
+                    className="absolute left-[6px] top-2 bottom-2 w-px"
+                    style={{ background: "linear-gradient(to bottom, var(--color-accent), var(--color-border))" }}
+                  />
+                  {[
+                    { year: "2019", label: "BSc Software Engineering · AAiT" },
+                    { year: "2020", label: "Backend Engineer · ICare Ethio Medical" },
+                    { year: "2022", label: "Data & ML Fellow · 10 Academy" },
+                    { year: "2022", label: "Mr. Fish Consulting — Launched" },
+                    { year: "Now", label: "Generative AI · Global Clients" },
+                  ].map((m, i) => (
+                    <div key={i} className="flex items-start gap-4 pl-0.5">
+                      <div
+                        className="w-3 h-3 rounded-full flex-shrink-0 mt-0.5 z-10"
+                        style={{
+                          background: i === 4 ? "var(--color-accent)" : "var(--color-surface-raised)",
+                          border: `2px solid ${i === 4 ? "var(--color-accent)" : "var(--color-border)"}`,
+                          boxShadow: i === 4 ? "0 0 8px var(--color-accent)" : "none",
+                        }}
+                      />
+                      <div>
+                        <span
+                          className="text-xs font-bold"
+                          style={{ fontFamily: "JetBrains Mono, monospace", color: i === 4 ? "var(--color-accent)" : "var(--color-text-tertiary)" }}
+                        >
+                          {m.year}
+                        </span>
+                        <p className="text-sm mt-0.5" style={{ color: "var(--color-text-secondary)" }}>{m.label}</p>
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             </motion.div>

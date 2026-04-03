@@ -15,18 +15,46 @@ export default function ContactPage() {
       {/* Hero */}
       <section className="pt-[120px] pb-12" style={{ background: "var(--color-surface)" }}>
         <div className="content-wrapper">
-          <motion.div variants={fadeUp} initial="hidden" animate="visible" className="max-w-3xl">
-            <SectionLabel>Let&apos;s Build Something Exceptional.</SectionLabel>
-            <h1
-              className="text-[clamp(1.75rem,4vw,3rem)] font-bold mb-4"
-              style={{ fontFamily: "Clash Display, sans-serif", color: "var(--color-text-primary)" }}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <motion.div variants={fadeUp} initial="hidden" animate="visible">
+              <SectionLabel>Let&apos;s Build Something Exceptional.</SectionLabel>
+              <h1
+                className="text-[clamp(1.75rem,4vw,3rem)] font-bold mb-4"
+                style={{ fontFamily: "Clash Display, sans-serif", color: "var(--color-text-primary)" }}
+              >
+                The Gap Between Where You Are and Where You Want to Be Is Usually Technical. Let&apos;s Close It.
+              </h1>
+              <p className="text-lg" style={{ color: "var(--color-text-secondary)" }}>
+                Whether you&apos;re sitting on untapped data, stalled in a build, or looking for a senior partner to take your technology to the next level — this is where that conversation starts.
+              </p>
+            </motion.div>
+
+            <motion.div
+              variants={fadeUp}
+              initial="hidden"
+              animate="visible"
+              className="hidden lg:flex justify-end"
             >
-              The Gap Between Where You Are and Where You Want to Be Is Usually Technical. Let&apos;s Close It.
-            </h1>
-            <p className="text-lg" style={{ color: "var(--color-text-secondary)" }}>
-              Whether you&apos;re sitting on untapped data, stalled in a build, or looking for a senior partner to take your technology to the next level — this is where that conversation starts.
-            </p>
-          </motion.div>
+              <div className="relative w-72 h-80 rounded-2xl overflow-hidden flex-shrink-0">
+                <img
+                  src="/images/profile.png"
+                  alt="Fisseha Estifanos — Mr. Fish"
+                  className="w-full h-full object-cover object-top"
+                  onError={(e) => {
+                    (e.currentTarget as HTMLImageElement).style.display = "none";
+                    const fallback = e.currentTarget.nextElementSibling as HTMLElement | null;
+                    if (fallback) fallback.style.display = "flex";
+                  }}
+                />
+                <div
+                  className="absolute inset-0 flex-col items-center justify-center"
+                  style={{ display: "none", background: "var(--color-surface-raised)", border: "1px solid var(--color-border)" }}
+                >
+                  <span style={{ fontSize: "4rem" }}>🦈</span>
+                </div>
+              </div>
+            </motion.div>
+          </div>
         </div>
       </section>
 
