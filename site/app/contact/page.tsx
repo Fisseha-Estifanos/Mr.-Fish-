@@ -59,7 +59,7 @@ export default function ContactPage() {
               variants={fadeUp}
               initial="hidden"
               animate="visible"
-              className="hidden lg:flex justify-end"
+              className="flex justify-center lg:justify-end"
             >
               <div className="relative w-92 h-150 rounded-2xl overflow-hidden flex-shrink-0">
                 <img
@@ -239,7 +239,7 @@ function ContactForm() {
   const [status, setStatus] = useState<FormStatus>("idle");
   const [errorMsg, setErrorMsg] = useState("");
 
-  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: React.SyntheticEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus("loading");
     setErrorMsg("");
