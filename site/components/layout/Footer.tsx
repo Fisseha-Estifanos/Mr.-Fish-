@@ -91,26 +91,26 @@ export function Footer() {
               <Image
                 src="/images/Ethiopian flag.png"
                 alt="Ethiopian flag"
-                height={128}
+                height={0}
                 width={0}
-                className="h-32 object-contain"
-                style={{ width: "auto", opacity: 0.85 }}
+                className="object-contain"
+                style={{ height: "8rem", width: "auto", opacity: 0.85 }}
               />
               <Image
                 src="/images/Mr. Fish logo Dark Theme.png"
                 alt="Mr. Fish logo"
-                height={128}
+                height={0}
                 width={0}
-                className="theme-logo-dark h-32 object-contain"
-                style={{ width: "auto", opacity: 0.85 }}
+                className="theme-logo-dark object-contain"
+                style={{ height: "8rem", width: "auto", opacity: 0.85 }}
               />
               <Image
                 src="/images/Mr. Fish logo Light Theme.png"
                 alt="Mr. Fish logo"
-                height={128}
+                height={0}
                 width={0}
-                className="theme-logo-light h-32 object-contain"
-                style={{ width: "auto", opacity: 0.85 }}
+                className="theme-logo-light object-contain"
+                style={{ height: "8rem", width: "auto", opacity: 0.85 }}
               />
             </div>
           </div>
